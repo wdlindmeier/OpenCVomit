@@ -1,8 +1,8 @@
 dependencies: /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.cpp \
-  ../../../../../Tools/cinder_master/include/cinder/qtime/QuickTime.h \
-  ../../../../../Tools/cinder_master/include/cinder/gl/Texture.h \
-  ../../../../../Tools/cinder_master/include/cinder/app/AppNative.h \
-  ../../../../../Tools/cinder_master/include/cinder/Capture.h \
+  /Users/bill/Tools/cinder_master/include/cinder/qtime/QuickTime.h \
+  /Users/bill/Tools/cinder_master/include/cinder/gl/Texture.h \
+  /Users/bill/Tools/cinder_master/include/cinder/app/AppNative.h \
+  /Users/bill/Tools/cinder_master/include/cinder/Capture.h \
   /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/OpenCV/include/CinderOpenCV.h \
   /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/OpenCV/include/opencv2/opencv.hpp \
   /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/OpenCV/include/opencv2/core/core_c.h \
@@ -32,7 +32,7 @@ dependencies: /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.cpp \
   /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/OpenCV/include/opencv2/contrib/retina.hpp \
   /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/OpenCV/include/opencv2/contrib/openfabmap.hpp \
   /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/ciFaceTracker/ciFaceTracker.h \
-  ../../../../../Tools/cinder_master/include/cinder/TriMesh.h \
+  /Users/bill/Tools/cinder_master/include/cinder/TriMesh.h \
   /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/ciFaceTracker/libs/FaceTracker/include/FaceTracker/Tracker.h \
   /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/ciFaceTracker/libs/FaceTracker/include/FaceTracker/CLM.h \
   /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/ciFaceTracker/libs/FaceTracker/include/FaceTracker/PDM.h \

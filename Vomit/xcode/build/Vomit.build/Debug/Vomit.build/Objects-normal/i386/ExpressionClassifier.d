@@ -2,7 +2,7 @@ dependencies: \
   /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ExpressionClassifier.cpp \
   /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ExpressionClassifier.h \
   /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/Expression.h \
-  ../../../../../Tools/cinder_master/include/cinder/TriMesh.h \
+  /Users/bill/Tools/cinder_master/include/cinder/TriMesh.h \
   /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/OpenCV/include/CinderOpenCV.h \
   /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/OpenCV/include/opencv2/opencv.hpp \
   /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/OpenCV/include/opencv2/core/core_c.h \

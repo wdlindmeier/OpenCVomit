@@ -492,7 +492,9 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = i386;
-				CINDER_PATH = ../../../../../Tools/cinder_master;
+				CINDER_PATH = "$(CINDER_PATH_$(USER))";
+				CINDER_PATH_bill = /Users/bill/Tools/cinder_master;
+				CINDER_PATH_mike = /ADD/YOUR/CINDER/PATH;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -513,7 +515,9 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = i386;
-				CINDER_PATH = ../../../../../Tools/cinder_master;
+				CINDER_PATH = "$(CINDER_PATH_$(USER))";
+				CINDER_PATH_bill = /Users/bill/Tools/cinder_master;
+				CINDER_PATH_mike = /ADD/YOUR/CINDER/PATH;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
