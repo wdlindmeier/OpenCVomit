@@ -1,0 +1,1362 @@
+TVomit
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Info.plist /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/Info.plist
+cCpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face.con build/Debug/Vomit.app/Contents/Resources/face.con
+cCpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face.tracker build/Debug/Vomit.app/Contents/Resources/face.tracker
+cCpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face2.tracker build/Debug/Vomit.app/Contents/Resources/face2.tracker
+cCpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/README.md build/Debug/Vomit.app/Contents/Resources/README.md
+cCpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/license.md build/Debug/Vomit.app/Contents/Resources/license.md
+cCpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face.tri build/Debug/Vomit.app/Contents/Resources/face.tri
+cCpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/resources/CinderApp.icns build/Debug/Vomit.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-etqjhffybceegnfqizorkmazgqax/Vomit_Prefix.pch.pch Vomit_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/PDM.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PDM.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/PAW.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PAW.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Tracker.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Tracker.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/CLM.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/CLM.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/IO.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/IO.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.o /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Patch.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Patch.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Expression.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/Expression.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/ExpressionClassifier.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ExpressionClassifier.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c000000005267E169000000000000044C
+t1382539625
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005267E16900000000000001DB
+t1382539625
+s475
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/Expression.cpp
+c00000000527AA6160000000000000437
+t1383769622
+s1079
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ExpressionClassifier.cpp
+c00000000527AA6160000000000000E6A
+t1383769622
+s3690
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/README.md
+c00000000527AA61600000000000002D9
+t1383769622
+s729
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/license.md
+c00000000527AA61600000000000008B7
+t1383769622
+s2231
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face.con
+c00000000527AA6160000000000000172
+t1383769622
+s370
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face.tracker
+c00000000527AA616000000000009E40A
+t1383769622
+s648202
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face.tri
+c00000000527AA6160000000000000323
+t1383769622
+s803
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face2.tracker
+c00000000527AA61600000000000B9A8C
+t1383769622
+s760460
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/CLM.cc
+c00000000527AA61600000000000035F0
+t1383769622
+s13808
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/IO.cc
+c00000000527AA61600000000000015D4
+t1383769622
+s5588
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PAW.cc
+c00000000527AA61600000000000027DB
+t1383769622
+s10203
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PDM.cc
+c00000000527AA6160000000000004392
+t1383769622
+s17298
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Patch.cc
+c00000000527AA6160000000000002C0A
+t1383769622
+s11274
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Tracker.cc
+c00000000527AA6160000000000002273
+t1383769622
+s8819
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/resources/CinderApp.icns
+c00000000527AED650000000000070375
+t1383787877
+s459637
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.cpp
+c00000000527AED65000000000000034D
+t1383787877
+s845
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/Info.plist
+c00000000527AED650000000000000462
+t1383787877
+s1122
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/Vomit_Prefix.pch
+c00000000527AED65000000000000012D
+t1383787877
+s301
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Info.plist
+t2
+s0
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Resources/README.md
+t2
+s0
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Resources/face.con
+t2
+s0
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Resources/face.tracker
+t2
+s0
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Resources/face.tri
+t2
+s0
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Resources/face2.tracker
+t2
+s0
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Resources/license.md
+t2
+s0
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/CLM.o
+t2
+s0
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Expression.o
+t2
+s0
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/ExpressionClassifier.o
+t2
+s0
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/IO.o
+t2
+s0
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/PAW.o
+t2
+s0
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/PDM.o
+t2
+s0
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Patch.o
+t2
+s0
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Tracker.o
+t2
+s0
+
+N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.o
+t2
+s0
+
+N/var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-etqjhffybceegnfqizorkmazgqax/Vomit_Prefix.pch.pch
+t1383788008
+s65549560
+
+CBuild AST from /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/Expression.cpp
+r0
+
+CBuild AST from /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ExpressionClassifier.cpp
+r0
+
+CBuild AST from /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ciFaceTracker.cpp
+r0
+
+CBuild AST from /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/CLM.cc
+r0
+
+CBuild AST from /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/FCheck.cc
+r0
+
+CBuild AST from /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/FDet.cc
+r0
+
+CBuild AST from /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/IO.cc
+r0
+
+CBuild AST from /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PAW.cc
+r0
+
+CBuild AST from /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PDM.cc
+r0
+
+CBuild AST from /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Patch.cc
+r0
+
+CBuild AST from /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Tracker.cc
+r0
+
+CBuild AST from /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies8c48a064252bb841^764fae64252bb841^---0#1#1#--18"Check dependencies36"045C7AB1-EAD1-4B67-9F35-051E2CB19273-
+
+CCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/CLM.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/CLM.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405480808.327805
+e405480810.504874
+r0
+xCompileC
+x./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/CLM.o
+x/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/CLM.cc
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/CLM.cc:40:10: fatal error: 'FaceTracker/CLM.h' file not found
+o#include <FaceTracker/CLM.h>
+o         ^
+o1 error generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/CLM.cc224"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/CLM.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/CLM.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler14075468252bb841^eb39816a252bb841^-206"/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/CLM.cc:40:10: fatal error: 'FaceTracker/CLM.h' file not found#include <FaceTracker/CLM.h>         ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@34"'FaceTracker/CLM.h' file not found-405480810#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@98"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/CLM.cc0000000000000000^39#9#39#9#2464#0#29"Lexical or Preprocessor Issue--0#0#1#-19%DVTDocumentLocation4@98"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/CLM.cc0000000000000000^3005"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/CLM.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/CLM.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-generated-files.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-own-target-headers.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-all-target-headers.hmap -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-project-headers.hmap -iquote../../../../../Tools/cinder_master/include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/include -I../../../../../Tools/cinder_master/boost -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources/i386 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources -F/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug -include /var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-etqjhffybceegnfqizorkmazgqax/Vomit_Prefix.pch -MMD -MT dependencies -MF /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/CLM.d --serialize-diagnostics /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/CLM.dia -c /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/CLM.cc -o /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/CLM.o36"16CA979A-6B44-4926-9DF7-E1F5B3B61E69-
+bCAB79DB0-D6E6-47DB-8543-FB00C0A48C5F
+
+CCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Expression.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/Expression.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405480808.329533
+e405480810.608618
+r1
+xCompileC
+x./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Expression.o
+x/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/Expression.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/Expression.cpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/Expression.h
+d/Users/bill/Tools/cinder_master/include/cinder/TriMesh.h
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/CinderOpenCV.h
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/opencv.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/core/core_c.h
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/core/types_c.h
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/core/core.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/core/version.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/core/operations.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/core/mat.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/flann/miniflann.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/flann/defines.h
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/flann/config.h
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/imgproc/imgproc_c.h
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/imgproc/types_c.h
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/imgproc/imgproc.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/photo/photo.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/photo/photo_c.h
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/video/video.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/video/tracking.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/video/background_segm.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/features2d/features2d.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/objdetect/objdetect.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/calib3d/calib3d.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/ml/ml.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/highgui/highgui_c.h
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/highgui/highgui.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/contrib/contrib.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/contrib/retina.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/contrib/openfabmap.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/Expression.cpp214"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Expression.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/Expression.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler268e5468252bb841^96ce9b6a252bb841^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/Expression.cpp0000000000000000^2999"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Expression.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/Expression.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-generated-files.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-own-target-headers.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-all-target-headers.hmap -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-project-headers.hmap -iquote../../../../../Tools/cinder_master/include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/include -I../../../../../Tools/cinder_master/boost -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources/i386 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources -F/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug -include /var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-etqjhffybceegnfqizorkmazgqax/Vomit_Prefix.pch -MMD -MT dependencies -MF /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Expression.d --serialize-diagnostics /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Expression.dia -c /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/Expression.cpp -o /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Expression.o36"39DBE726-1773-4CFD-A28F-76E46A28474D-
+bCAB79DB0-D6E6-47DB-8543-FB00C0A48C5F
+
+CCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/ExpressionClassifier.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ExpressionClassifier.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405480810.496546
+e405480811.831510
+r0
+xCompileC
+x./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/ExpressionClassifier.o
+x/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ExpressionClassifier.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ExpressionClassifier.cpp:1:
+oIn file included from /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ExpressionClassifier.h:10:
+oIn file included from /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ciFaceTracker.h:28:
+o/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/ciFaceTracker/libs/FaceTracker/include/FaceTracker/Tracker.h:42:10: fatal error: 'FaceTracker/CLM.h' file not found
+o#include <FaceTracker/CLM.h>
+o         ^
+o1 error generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ExpressionClassifier.cpp234"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/ExpressionClassifier.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ExpressionClassifier.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler76377f6a252bb841^fddcd46b252bb841^-551"In file included from /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ExpressionClassifier.cpp:1:In file included from /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ExpressionClassifier.h:10:In file included from /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ciFaceTracker.h:28:/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/ciFaceTracker/libs/FaceTracker/include/FaceTracker/Tracker.h:42:10: fatal error: 'FaceTracker/CLM.h' file not found#include <FaceTracker/CLM.h>         ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@34"'FaceTracker/CLM.h' file not found-405480811#18446744073709551615#0#3(2@109"In file included from /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ExpressionClassifier.cpp:1:-405480811#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@91"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ExpressionClassifier.cpp0000000000000000^0#9#0#9#9#0#21"Apple LLVM 5.0 Notice--2@108"In file included from /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ExpressionClassifier.h:10:-405480811#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@89"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ExpressionClassifier.h0000000000000000^9#9#9#9#140#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ciFaceTracker.h:28:-405480811#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@82"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ciFaceTracker.h0000000000000000^27#9#27#9#824#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@113"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/include/FaceTracker/Tracker.h0000000000000000^41#9#41#9#2506#0#29"Lexical or Preprocessor Issue--0#0#1#-19%DVTDocumentLocation4@91"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ExpressionClassifier.cpp0000000000000000^3059"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/ExpressionClassifier.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ExpressionClassifier.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-generated-files.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-own-target-headers.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-all-target-headers.hmap -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-project-headers.hmap -iquote../../../../../Tools/cinder_master/include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/include -I../../../../../Tools/cinder_master/boost -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources/i386 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources -F/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug -include /var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-etqjhffybceegnfqizorkmazgqax/Vomit_Prefix.pch -MMD -MT dependencies -MF /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/ExpressionClassifier.d --serialize-diagnostics /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/ExpressionClassifier.dia -c /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ExpressionClassifier.cpp -o /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/ExpressionClassifier.o36"A29C8752-E7EC-4C73-96BE-712D10B47C4F-
+bCAB79DB0-D6E6-47DB-8543-FB00C0A48C5F
+
+CCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/FCheck.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/FCheck.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/FDet.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/FDet.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/IO.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/IO.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405480808.328083
+e405480810.553504
+r0
+xCompileC
+x./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/IO.o
+x/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/IO.cc
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/IO.cc:40:10: fatal error: 'FaceTracker/IO.h' file not found
+o#include <FaceTracker/IO.h>
+o         ^
+o1 error generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/IO.cc222"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/IO.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/IO.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler55175468252bb841^1cb28d6a252bb841^-203"/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/IO.cc:40:10: fatal error: 'FaceTracker/IO.h' file not found#include <FaceTracker/IO.h>         ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@33"'FaceTracker/IO.h' file not found-405480810#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@97"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/IO.cc0000000000000000^39#9#39#9#2464#0#29"Lexical or Preprocessor Issue--0#0#1#-19%DVTDocumentLocation4@97"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/IO.cc0000000000000000^2999"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/IO.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/IO.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-generated-files.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-own-target-headers.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-all-target-headers.hmap -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-project-headers.hmap -iquote../../../../../Tools/cinder_master/include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/include -I../../../../../Tools/cinder_master/boost -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources/i386 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources -F/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug -include /var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-etqjhffybceegnfqizorkmazgqax/Vomit_Prefix.pch -MMD -MT dependencies -MF /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/IO.d --serialize-diagnostics /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/IO.dia -c /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/IO.cc -o /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/IO.o36"CCA47142-514C-4557-BF7B-16A99BAA07DE-
+bCAB79DB0-D6E6-47DB-8543-FB00C0A48C5F
+
+CCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/PAW.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PAW.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405480808.327464
+e405480810.542562
+r0
+xCompileC
+x./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/PAW.o
+x/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PAW.cc
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PAW.cc:40:10: fatal error: 'FaceTracker/PAW.h' file not found
+o#include <FaceTracker/PAW.h>
+o         ^
+o1 error generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PAW.cc224"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/PAW.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PAW.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler4fe65368252bb841^5ce48a6a252bb841^-206"/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PAW.cc:40:10: fatal error: 'FaceTracker/PAW.h' file not found#include <FaceTracker/PAW.h>         ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@34"'FaceTracker/PAW.h' file not found-405480810#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@98"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PAW.cc0000000000000000^39#9#39#9#2464#0#29"Lexical or Preprocessor Issue--0#0#1#-19%DVTDocumentLocation4@98"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PAW.cc0000000000000000^3005"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/PAW.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PAW.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-generated-files.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-own-target-headers.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-all-target-headers.hmap -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-project-headers.hmap -iquote../../../../../Tools/cinder_master/include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/include -I../../../../../Tools/cinder_master/boost -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources/i386 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources -F/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug -include /var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-etqjhffybceegnfqizorkmazgqax/Vomit_Prefix.pch -MMD -MT dependencies -MF /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/PAW.d --serialize-diagnostics /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/PAW.dia -c /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PAW.cc -o /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/PAW.o36"69581579-89C7-482A-9183-E51B26B65D89-
+bCAB79DB0-D6E6-47DB-8543-FB00C0A48C5F
+
+CCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/PDM.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PDM.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405480808.327289
+e405480810.546535
+r0
+xCompileC
+x./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/PDM.o
+x/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PDM.cc
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PDM.cc:40:10: fatal error: 'FaceTracker/PDM.h' file not found
+o#include <FaceTracker/PDM.h>
+o         ^
+o1 error generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PDM.cc224"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/PDM.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PDM.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler23d95368252bb841^9be88b6a252bb841^-206"/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PDM.cc:40:10: fatal error: 'FaceTracker/PDM.h' file not found#include <FaceTracker/PDM.h>         ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@34"'FaceTracker/PDM.h' file not found-405480810#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@98"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PDM.cc0000000000000000^39#9#39#9#2464#0#29"Lexical or Preprocessor Issue--0#0#1#-19%DVTDocumentLocation4@98"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PDM.cc0000000000000000^3005"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/PDM.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PDM.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-generated-files.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-own-target-headers.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-all-target-headers.hmap -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-project-headers.hmap -iquote../../../../../Tools/cinder_master/include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/include -I../../../../../Tools/cinder_master/boost -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources/i386 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources -F/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug -include /var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-etqjhffybceegnfqizorkmazgqax/Vomit_Prefix.pch -MMD -MT dependencies -MF /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/PDM.d --serialize-diagnostics /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/PDM.dia -c /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/PDM.cc -o /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/PDM.o36"3BAFC6FE-2F9F-43F0-8C8D-4D1CA0E120C4-
+bCAB79DB0-D6E6-47DB-8543-FB00C0A48C5F
+
+CCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Patch.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Patch.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405480808.329164
+e405480810.495303
+r0
+xCompileC
+x./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Patch.o
+x/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Patch.cc
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Patch.cc:40:10: fatal error: 'FaceTracker/Patch.h' file not found
+o#include <FaceTracker/Patch.h>
+o         ^
+o1 error generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Patch.cc228"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Patch.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Patch.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler376f5468252bb841^32cb7e6a252bb841^-212"/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Patch.cc:40:10: fatal error: 'FaceTracker/Patch.h' file not found#include <FaceTracker/Patch.h>         ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@36"'FaceTracker/Patch.h' file not found-405480810#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@100"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Patch.cc0000000000000000^39#9#39#9#2464#0#29"Lexical or Preprocessor Issue--0#0#1#-19%DVTDocumentLocation4@100"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Patch.cc0000000000000000^3017"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Patch.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Patch.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-generated-files.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-own-target-headers.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-all-target-headers.hmap -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-project-headers.hmap -iquote../../../../../Tools/cinder_master/include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/include -I../../../../../Tools/cinder_master/boost -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources/i386 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources -F/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug -include /var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-etqjhffybceegnfqizorkmazgqax/Vomit_Prefix.pch -MMD -MT dependencies -MF /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Patch.d --serialize-diagnostics /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Patch.dia -c /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Patch.cc -o /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Patch.o36"9233E817-0841-4CBD-869C-D0CDAE5163F5-
+bCAB79DB0-D6E6-47DB-8543-FB00C0A48C5F
+
+CCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Tracker.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Tracker.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405480808.327619
+e405480810.553457
+r0
+xCompileC
+x./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Tracker.o
+x/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Tracker.cc
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Tracker.cc:40:10: fatal error: 'FaceTracker/Tracker.h' file not found
+o#include <FaceTracker/Tracker.h>
+o         ^
+o1 error generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Tracker.cc232"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Tracker.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Tracker.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler9df75368252bb841^8fab8d6a252bb841^-218"/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Tracker.cc:40:10: fatal error: 'FaceTracker/Tracker.h' file not found#include <FaceTracker/Tracker.h>         ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@38"'FaceTracker/Tracker.h' file not found-405480810#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@102"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Tracker.cc0000000000000000^39#9#39#9#2464#0#29"Lexical or Preprocessor Issue--0#0#1#-19%DVTDocumentLocation4@102"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Tracker.cc0000000000000000^3029"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Tracker.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Tracker.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-generated-files.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-own-target-headers.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-all-target-headers.hmap -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-project-headers.hmap -iquote../../../../../Tools/cinder_master/include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/include -I../../../../../Tools/cinder_master/boost -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources/i386 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources -F/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug -include /var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-etqjhffybceegnfqizorkmazgqax/Vomit_Prefix.pch -MMD -MT dependencies -MF /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Tracker.d --serialize-diagnostics /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Tracker.dia -c /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/Tracker.cc -o /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Tracker.o36"1066A1B3-F6B3-4707-8B16-2D34839E9F46-
+bCAB79DB0-D6E6-47DB-8543-FB00C0A48C5F
+
+CCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.o /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405480808.328555
+e405480810.914335
+r1
+xCompileC
+x./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.o
+x/Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.cpp
+d/Users/bill/Tools/cinder_master/include/cinder/app/AppNative.h
+d/Users/bill/Tools/cinder_master/include/cinder/gl/Texture.h
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/CinderOpenCV.h
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/opencv.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/core/core_c.h
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/core/types_c.h
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/core/core.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/core/version.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/core/operations.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/core/mat.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/flann/miniflann.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/flann/defines.h
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/flann/config.h
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/imgproc/imgproc_c.h
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/imgproc/types_c.h
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/imgproc/imgproc.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/photo/photo.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/photo/photo_c.h
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/video/video.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/video/tracking.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/video/background_segm.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/features2d/features2d.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/objdetect/objdetect.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/calib3d/calib3d.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/ml/ml.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/highgui/highgui_c.h
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/highgui/highgui.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/contrib/contrib.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/contrib/retina.hpp
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/contrib/openfabmap.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.cpp193"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.o /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerd2345468252bb841^4d13ea6a252bb841^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.cpp0000000000000000^2953"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.o /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-generated-files.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-own-target-headers.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-all-target-headers.hmap -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-project-headers.hmap -iquote../../../../../Tools/cinder_master/include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/include -I../../../../../Tools/cinder_master/boost -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources/i386 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources -F/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug -include /var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-etqjhffybceegnfqizorkmazgqax/Vomit_Prefix.pch -MMD -MT dependencies -MF /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.d --serialize-diagnostics /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.dia -c /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.cpp -o /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.o36"3524856B-E9E4-4883-BBE3-4BBC03A2C2A8-
+bCAB79DB0-D6E6-47DB-8543-FB00C0A48C5F
+
+CCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/ciFaceTracker.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ciFaceTracker.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/README.md build/Debug/Vomit.app/Contents/Resources/README.md
+s405480804.686194
+e405480804.688001
+r1
+xCpResource
+x/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/README.md
+xbuild/Debug/Vomit.app/Contents/Resources/README.md
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug/Vomit.app/Contents/Resources/README.md131"CpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/README.md build/Debug/Vomit.app/Contents/Resources/README.md39b9af64252bb841^ee22b064252bb841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Resources/README.md0034b882dcffdf42^452"CpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/README.md build/Debug/Vomit.app/Contents/Resources/README.md    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/README.md /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Resources36"F2369C60-3232-4004-9A22-690B8F08ACCD-
+bCAB79DB0-D6E6-47DB-8543-FB00C0A48C5F
+
+CCpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/license.md build/Debug/Vomit.app/Contents/Resources/license.md
+s405480804.686430
+e405480804.688036
+r1
+xCpResource
+x/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/license.md
+xbuild/Debug/Vomit.app/Contents/Resources/license.md
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug/Vomit.app/Contents/Resources/license.md150"CpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/license.md build/Debug/Vomit.app/Contents/Resources/license.md4cc4af64252bb841^d733b064252bb841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Resources/license.md0034b882dcffdf42^489"CpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/license.md build/Debug/Vomit.app/Contents/Resources/license.md    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/license.md /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Resources36"18DC6E59-BCD2-47F3-AC7A-D3FEF1D32A97-
+bCAB79DB0-D6E6-47DB-8543-FB00C0A48C5F
+
+CCpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face.con build/Debug/Vomit.app/Contents/Resources/face.con
+s405480804.684011
+e405480804.685353
+r1
+xCpResource
+x/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face.con
+xbuild/Debug/Vomit.app/Contents/Resources/face.con
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug/Vomit.app/Contents/Resources/face.con152"CpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face.con build/Debug/Vomit.app/Contents/Resources/face.con0b29af64252bb841^c173af64252bb841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Resources/face.con0034b882dcffdf42^495"CpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face.con build/Debug/Vomit.app/Contents/Resources/face.con    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face.con /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Resources36"3F4BC857-DEB0-4F30-A830-6C7B7A027A22-
+bCAB79DB0-D6E6-47DB-8543-FB00C0A48C5F
+
+CCpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face.tracker build/Debug/Vomit.app/Contents/Resources/face.tracker
+s405480804.684259
+e405480804.688542
+r1
+xCpResource
+x/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face.tracker
+xbuild/Debug/Vomit.app/Contents/Resources/face.tracker
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug/Vomit.app/Contents/Resources/face.tracker160"CpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face.tracker build/Debug/Vomit.app/Contents/Resources/face.trackerb666af64252bb841^113ab064252bb841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Resources/face.tracker0034b882dcffdf42^507"CpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face.tracker build/Debug/Vomit.app/Contents/Resources/face.tracker    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face.tracker /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Resources36"AB4EA76B-7399-473A-A1CA-1B81DD11C943-
+bCAB79DB0-D6E6-47DB-8543-FB00C0A48C5F
+
+CCpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face.tri build/Debug/Vomit.app/Contents/Resources/face.tri
+s405480804.687352
+e405480804.688767
+r1
+xCpResource
+x/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face.tri
+xbuild/Debug/Vomit.app/Contents/Resources/face.tri
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug/Vomit.app/Contents/Resources/face.tri152"CpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face.tri build/Debug/Vomit.app/Contents/Resources/face.tric1feaf64252bb841^7156b064252bb841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Resources/face.tri0034b882dcffdf42^495"CpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face.tri build/Debug/Vomit.app/Contents/Resources/face.tri    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face.tri /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Resources36"3C7AC2DF-AC81-4FE9-910B-EB3ABB085259-
+bCAB79DB0-D6E6-47DB-8543-FB00C0A48C5F
+
+CCpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face2.tracker build/Debug/Vomit.app/Contents/Resources/face2.tracker
+s405480804.685020
+e405480804.688749
+r1
+xCpResource
+x/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face2.tracker
+xbuild/Debug/Vomit.app/Contents/Resources/face2.tracker
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug/Vomit.app/Contents/Resources/face2.tracker162"CpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face2.tracker build/Debug/Vomit.app/Contents/Resources/face2.tracker59a6af64252bb841^5052b064252bb841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Resources/face2.tracker0034b882dcffdf42^510"CpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face2.tracker build/Debug/Vomit.app/Contents/Resources/face2.tracker    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/model/face2.tracker /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Resources36"0264183C-CE06-4E95-943B-AB5A8EF5B059-
+bCAB79DB0-D6E6-47DB-8543-FB00C0A48C5F
+
+CCpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/resources/CinderApp.icns build/Debug/Vomit.app/Contents/Resources/CinderApp.icns
+s405480804.687793
+e405480804.689566
+r1
+xCpResource
+x/Users/bill/Documents/ITP/AIT-CV/Vomit/resources/CinderApp.icns
+xbuild/Debug/Vomit.app/Contents/Resources/CinderApp.icns
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug/Vomit.app/Contents/Resources/CinderApp.icns130"CpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/resources/CinderApp.icns build/Debug/Vomit.app/Contents/Resources/CinderApp.icns9c31b064252bb841^9488b064252bb841^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Resources/CinderApp.icns0034b882dcffdf42^445"CpResource /Users/bill/Documents/ITP/AIT-CV/Vomit/resources/CinderApp.icns build/Debug/Vomit.app/Contents/Resources/CinderApp.icns    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/bill/Documents/ITP/AIT-CV/Vomit/resources/CinderApp.icns /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Resources36"8D9F6421-DEF1-4FD7-B749-487582F8D376-
+bCAB79DB0-D6E6-47DB-8543-FB00C0A48C5F
+
+CLd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Debug/Vomit.app/Contents/MacOS/Vomit normal i386
+r0
+
+CProcessInfoPlistFile /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Info.plist /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/Info.plist
+s405480804.681910
+e405480804.683215
+r1
+xProcessInfoPlistFile
+x/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Info.plist
+x/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Process /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/Info.plist73"ProcessInfoPlistFile build/Debug/Vomit.app/Contents/Info.plist Info.plistd49aae64252bb841^da37af64252bb841^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/Info.plist0000000000000000^435"ProcessInfoPlistFile build/Debug/Vomit.app/Contents/Info.plist Info.plist    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    builtin-infoPlistUtility /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/Info.plist -genpkginfo /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/Info.plist36"D62DD95A-C251-4C51-A73E-C8BCCB0D82F0-
+bCAB79DB0-D6E6-47DB-8543-FB00C0A48C5F
+
+CProcessPCH++ /Users/bill/Library/Developer/Xcode/DerivedData/Vomit-dpbgppyiwvsxiodzxcbpzjxuoeln/Index/PrecompiledHeaders/Vomit_Prefix-boaccsowbxlillbrrowcfaxyqzah_ast/Vomit_Prefix.pch.pch Vomit_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-etqjhffybceegnfqizorkmazgqax/Vomit_Prefix.pch.pch Vomit_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405480804.690030
+e405480808.325248
+r1
+xProcessPCH++
+x/var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-etqjhffybceegnfqizorkmazgqax/Vomit_Prefix.pch.pch
+xVomit_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/Vomit_Prefix.pch
+d/Users/bill/Tools/cinder_master/include/cinder/Cinder.h
+d/Users/bill/Tools/cinder_master/boost/boost/version.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/checked_delete.hpp
+d/Users/bill/Tools/cinder_master/include/cinder/app/AppBasic.h
+d/Users/bill/Tools/cinder_master/include/cinder/app/App.h
+d/Users/bill/Tools/cinder_master/include/cinder/app/Renderer.h
+d/Users/bill/Tools/cinder_master/include/cinder/gl/gl.h
+d/Users/bill/Tools/cinder_master/include/cinder/Exception.h
+d/Users/bill/Tools/cinder_master/include/cinder/Quaternion.h
+d/Users/bill/Tools/cinder_master/include/cinder/CinderMath.h
+d/Users/bill/Tools/cinder_master/include/cinder/Vector.h
+d/Users/bill/Tools/cinder_master/include/cinder/Matrix.h
+d/Users/bill/Tools/cinder_master/include/cinder/Matrix22.h
+d/Users/bill/Tools/cinder_master/include/cinder/MatrixAffine2.h
+d/Users/bill/Tools/cinder_master/include/cinder/Matrix33.h
+d/Users/bill/Tools/cinder_master/include/cinder/Matrix44.h
+d/Users/bill/Tools/cinder_master/include/cinder/MatrixAlgo.h
+d/Users/bill/Tools/cinder_master/include/cinder/Color.h
+d/Users/bill/Tools/cinder_master/include/cinder/ChanTraits.h
+d/Users/bill/Tools/cinder_master/include/cinder/Rect.h
+d/Users/bill/Tools/cinder_master/include/cinder/Area.h
+d/Users/bill/Tools/cinder_master/include/cinder/Font.h
+d/Users/bill/Tools/cinder_master/include/cinder/Shape2d.h
+d/Users/bill/Tools/cinder_master/include/cinder/Path2d.h
+d/Users/bill/Tools/cinder_master/include/cinder/BSpline.h
+d/Users/bill/Tools/cinder_master/include/cinder/DataSource.h
+d/Users/bill/Tools/cinder_master/include/cinder/Url.h
+d/Users/bill/Tools/cinder_master/include/cinder/Stream.h
+d/Users/bill/Tools/cinder_master/include/cinder/Buffer.h
+d/Users/bill/Tools/cinder_master/include/cinder/Filesystem.h
+d/Users/bill/Tools/cinder_master/boost/boost/filesystem.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/filesystem/config.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/config.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/config/user.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/config/select_compiler_config.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/config/compiler/clang.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/config/select_stdlib_config.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/config/no_tr1/utility.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/config/stdlib/libcpp.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/config/select_platform_config.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/config/platform/macos.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/config/posix_features.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/config/suffix.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/system/api_config.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/detail/workaround.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/config/auto_link.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/filesystem/path.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/filesystem/path_traits.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/utility/enable_if.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_array.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/config.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/bool_trait_def.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/template_arity_spec.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/int.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/int_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/adl_barrier.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/adl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/msvc.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/intel.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/gcc.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/workaround.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/nttp_decl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/nttp.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/integral_wrapper.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/integral_c_tag.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/static_constant.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/static_cast.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/cat.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/config/config.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/template_arity_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessor/params.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/preprocessor.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/comma_if.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/punctuation/comma_if.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/control/if.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/control/iif.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/logical/bool.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/facilities/empty.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/punctuation/comma.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/repeat.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/repetition/repeat.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/debug/error.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/detail/auto_rec.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/tuple/eat.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/inc.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/arithmetic/inc.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/lambda.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/ttp.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/ctps.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/overload_resolution.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/integral_constant.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/bool.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/bool_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/integral_c.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/integral_c_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/lambda_support.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/bool_trait_undef.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/decay.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_function.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_reference.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_lvalue_reference.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_rvalue_reference.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/ice.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/yes_no_type.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/ice_or.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/ice_and.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/ice_not.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/ice_eq.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/false_result.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/is_function_ptr_helper.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/remove_bounds.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/type_trait_def.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/type_trait_undef.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/add_pointer.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/remove_reference.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/broken_compiler_spec.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/eval_if.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/if.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/value_wknd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/integral.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/eti.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/na_spec.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/lambda_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/void_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/na.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/na_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/lambda_arity_param.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/arity.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/dtp.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessor/enum.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessor/def_params_tail.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/limits/arity.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/logical/and.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/logical/bitand.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/identity.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/facilities/identity.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/empty.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/arithmetic/add.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/arithmetic/dec.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/control/while.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/list/fold_left.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/list/detail/fold_left.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/control/expr_iif.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/list/adt.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/detail/is_binary.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/detail/check.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/logical/compl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/list/fold_right.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/list/detail/fold_right.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/list/reverse.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/control/detail/while.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/tuple/elem.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/facilities/overload.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/variadic/size.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/tuple/rem.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/variadic/elem.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/arithmetic/sub.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/identity.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/system/error_code.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/system/config.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/cstdint.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/assert.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/current_function.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/operators.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iterator.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/noncopyable.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/cerrno.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/config/abi_prefix.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/config/abi_suffix.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/system/system_error.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iterator/iterator_facade.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iterator/interoperable.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/or.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/use_preprocessed.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/nested_type_wknd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/include_preprocessed.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/compiler.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/stringize.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessed/gcc/or.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_convertible.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/intrinsics.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_same.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_volatile.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/cv_traits_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_abstract.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iterator/detail/config_def.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iterator/detail/config_undef.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iterator/iterator_traits.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/detail/iterator.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iterator/detail/facade_iterator_category.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iterator/iterator_categories.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/placeholders.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/arg.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/arg_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/na_assert.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/assert.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/not.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/yes_no.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/arrays.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/pp_counter.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/arity_spec.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/arg_typedef.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessed/gcc/arg.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/static_assert.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/and.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessed/gcc/and.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_const.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/detail/indirect_traits.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_pointer.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_member_pointer.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_member_function_pointer.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/remove_cv.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_class.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/remove_pointer.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iterator/detail/enable_if.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/utility/addressof.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/add_const.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/remove_const.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_pod.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_void.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_scalar.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_arithmetic.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_integral.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_float.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_enum.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/always.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/apply.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/apply_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/apply_wrap.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/has_apply.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/has_xxx.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/type_wrapper.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/has_xxx.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/msvc_typename.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/array/elem.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/array/data.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/array/size.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/repetition/enum_params.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/repetition/enum_trailing_params.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/has_apply.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/msvc_never_true.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/lambda.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/bind.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/bind_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/bind.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/next.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/next_prior.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/common_name_wknd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/protect.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessed/gcc/bind.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/full_lambda.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/quote.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/void.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/has_type.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/bcc.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessed/gcc/quote.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/template_arity.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessed/gcc/apply.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/shared_ptr.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/smart_ptr/shared_ptr.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/config/no_tr1/memory.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/throw_exception.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/smart_ptr/detail/shared_count.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/smart_ptr/bad_weak_ptr.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/smart_ptr/detail/sp_counted_base.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/smart_ptr/detail/sp_has_sync.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/detail/sp_typeinfo.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/smart_ptr/detail/sp_counted_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/smart_ptr/detail/sp_convertible.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/smart_ptr/detail/sp_nullptr_t.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/smart_ptr/detail/spinlock_pool.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/smart_ptr/detail/spinlock.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/smart_ptr/detail/spinlock_sync.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/smart_ptr/detail/yield_k.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/memory_order.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/smart_ptr/detail/operator_bool.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/io/detail/quoted_manip.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/io/ios_state.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/io_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/functional/hash_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/functional/hash/hash_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/filesystem/operations.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/detail/scoped_enum_emulation.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/detail/bitmask.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/filesystem/convenience.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/concepts.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/categories.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/default_arg.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/ios.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/config/wide_streams.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/positioning.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/integer_traits.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/limits.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/config/codecvt.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/config/fpos.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/config/disable_warnings.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/config/enable_warnings.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/stream.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/constants.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/char_traits.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/config/overload_resolution.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/config/gcc.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/forward.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/config/limits.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/push_params.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/repetition/enum_binary_params.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/repetition/repeat_from_to.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/iostream.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/select.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_base_and_derived.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/stream_buffer.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/streambuf/direct_streambuf.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/error.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/execute.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/iteration/local.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/slot/slot.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/slot/detail/def.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/utility/result_of.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/iteration/iterate.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/repetition/enum_shifted_params.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/facilities/intercept.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/utility/declval.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/add_rvalue_reference.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/iteration/detail/iter/forward1.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/iteration/detail/bounds/lower1.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/slot/detail/shared.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/iteration/detail/bounds/upper1.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/utility/detail/result_of_iterate.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/iteration/detail/local.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/functional.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/close.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/flush.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/dispatch.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/traits.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/bool_trait_def.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/template_params.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/control/expr_if.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/is_iterator_range.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/select_by_size.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/wrap_unwrap.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/enable_if_stream.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/traits_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/ref.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/iterator_range.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/iterator_range_core.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/functions.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/begin.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/config.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/iterator.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/mutable_iterator.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/detail/extract_optional_type.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/const_iterator.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/end.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/detail/implementation_help.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/detail/common.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/detail/sfinae.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/size.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/size_type.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/difference_type.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/make_unsigned.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_signed.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_unsigned.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/add_volatile.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/distance.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/empty.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/rbegin.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/reverse_iterator.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iterator/reverse_iterator.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/next_prior.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iterator/iterator_adaptor.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/add_reference.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/rend.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/algorithm/equal.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/concepts.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/concept_check.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/concept/assert.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/concept/detail/general.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/concept/detail/backward_compatibility.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/concept/detail/has_constraints.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/conversion_traits.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/concept/usage.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/concept/detail/concept_def.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/seq/for_each_i.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/repetition/for.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/repetition/detail/for.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/seq/seq.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/seq/elem.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/seq/size.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/seq/enum.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/concept/detail/concept_undef.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iterator/iterator_concepts.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/value_type.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/detail/misc_concept.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/detail/safe_bool.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/range/iterator_range_io.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/streambuf.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/operations_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/adapter/non_blocking_adapter.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/read.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/char_traits.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/seek.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/write.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/optional.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/aligned_storage.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/aligned_storage.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/alignment_of.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/size_t_trait_def.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/size_t.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/size_t_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/size_t_trait_undef.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/type_with_alignment.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/list/for_each_i.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/tuple/to_list.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/list/transform.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/list/append.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/streambuf/linked_streambuf.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/operations.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/imbue.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/input_sequence.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/optimal_buffer_size.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/output_sequence.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/streambuf/indirect_streambuf.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/adapter/concept_adapter.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/call_traits.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/config/unreachable_return.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/device/null.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/buffer.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/checked_operations.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/get.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/put.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/double_object.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/call_traits.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/detail/call_traits.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/push.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/adapter/range_adapter.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/pipeline.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/resolve.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/detail/is_incrementable.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/adapter/mode_adapter.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/adapter/output_iterator_adapter.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/detail/is_dereferenceable.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/iostreams/device/array.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/utility/base_from_member.hpp
+d/Users/bill/Tools/cinder_master/include/cinder/PolyLine.h
+d/Users/bill/Tools/cinder_master/include/cinder/AxisAlignedBox.h
+d/Users/bill/Tools/cinder_master/include/cinder/Ray.h
+d/Users/bill/Tools/cinder_master/include/cinder/Surface.h
+d/Users/bill/Tools/cinder_master/include/cinder/Channel.h
+d/Users/bill/Tools/cinder_master/boost/boost/logic/tribool.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/logic/tribool_fwd.hpp
+d/Users/bill/Tools/cinder_master/include/cinder/Display.h
+d/Users/bill/Tools/cinder_master/include/cinder/Function.h
+d/Users/bill/Tools/cinder_master/boost/boost/signals2.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/deconstruct.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/deconstruct_ptr.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/postconstructible.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/predestructible.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/dummy_mutex.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/last_value.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/optional.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/optional/optional.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/has_nothrow_constructor.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/has_trivial_constructor.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/detail/reference_content.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/has_nothrow_copy.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/has_trivial_copy.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/none.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/none_t.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/utility/swap.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/utility/compare_pointees.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/utility/in_place_factory.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/utility/detail/in_place_factory_prefix.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/punctuation/paren.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/repetition/enum.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/utility/detail/in_place_factory_suffix.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/optional/optional_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/expired_slot.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/signal.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/function.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/iterate.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/function/detail/prologue.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/config/no_tr1/functional.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/function/function_base.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/integer.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/integer_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/has_trivial_destructor.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/composite_traits.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_union.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/function_equal.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/function/function_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mem_fn.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/bind/mem_fn.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/get_pointer.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/bind/mem_fn_template.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/bind/mem_fn_cc.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/enum.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/enum_params.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/function/detail/function_iterate.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/function/detail/maybe_include.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/function/function_template.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/detail/no_exceptions_support.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/connection.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/detail/null_output_iterator.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/function_output_iterator.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/detail/unique_lock.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/slot.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/bind.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/bind/bind.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/is_placeholder.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/bind/arg.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/visit_each.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/bind/storage.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/bind/bind_template.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/bind/bind_cc.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/bind/bind_mf_cc.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/bind/bind_mf2_cc.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/bind/placeholders.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/detail/signals_common.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/signal_base.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_base_of.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/detail/signals_common_macros.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/detail/tracked_objects_visitor.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/slot_base.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/any.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/weak_ptr.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/smart_ptr/weak_ptr.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/detail/foreign_ptr.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/scoped_ptr.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/smart_ptr/scoped_ptr.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/apply_visitor.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/detail/apply_visitor_unary.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/detail/generic_result_type.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/detail/apply_visitor_binary.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/detail/apply_visitor_delayed.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/variant.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/detail/config.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/variant_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/blank_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/enum_shifted_params.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/limits/list.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/detail/substitute_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/detail/backup_holder.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/detail/enable_recursive_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/detail/forced_return.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/detail/initializer.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/recursive_wrapper_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/detail/move.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/iter_fold.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/begin_end.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/begin_end_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/begin_end_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/sequence_tag_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/has_begin.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/traits_lambda_spec.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/sequence_tag.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/has_tag.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/is_msvc_eti_arg.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/O1_size.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/O1_size_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/O1_size_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/long.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/long_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/has_size.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/forwarding.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/iter_fold_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessed/gcc/iter_fold_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/deref.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/msvc_type.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/pair.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/msvc_eti_base.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/detail/make_variant_list.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/list.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/list/list20.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/list/list10.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/list/list0.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/list/aux_/push_front.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/push_front_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/list/aux_/item.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/list/aux_/tag.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/list/aux_/pop_front.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/pop_front_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/list/aux_/push_back.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/push_back_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/list/aux_/front.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/front_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/list/aux_/clear.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/clear_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/list/aux_/O1_size.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/list/aux_/size.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/size_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/list/aux_/empty.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/empty_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/list/aux_/begin_end.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/list/aux_/iterator.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/iterator_tags.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/lambda_spec.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/list/aux_/include_preprocessed.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/list/aux_/preprocessed/plain/list10.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/list/aux_/preprocessed/plain/list20.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessed/gcc/list.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/detail/over_sequence.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/detail/visitation_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/detail/cast_storage.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/detail/has_nothrow_move.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/detail/has_trivial_move.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/has_trivial_assign.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/detail/bool_trait_def.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/detail/bool_trait_undef.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/has_nothrow_assign.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/detail/hash_variant.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/static_visitor.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/blank.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/detail/templated_streams.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_empty.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/is_stateless.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/math/common_factor_ct.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/math_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/empty.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/empty_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/find_if.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/find_if_pred.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/iter_apply.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/iter_fold_if.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/logical.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/iter_fold_if_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessed/gcc/iter_fold_if_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/fold.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/fold_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessed/gcc/fold_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/front.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/front_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/is_sequence.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/iterator_range.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/max_element.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/less.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/comparison_op.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/numeric_op.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/numeric_cast.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/tag.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/numeric_cast_utils.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessed/gcc/less.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/push_front.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/push_front_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/same_as.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/sizeof.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/transform.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/reverse_fold.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/reverse_fold_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessed/gcc/reverse_fold_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/pair_view.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/iterator_category.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/advance.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/advance_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/negate.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/advance_forward.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessed/gcc/advance_forward.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/advance_backward.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/prior.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessed/gcc/advance_backward.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/distance.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/distance_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/min_max.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/inserter_algorithm.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/back_inserter.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/push_back.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/push_back_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/inserter.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/front_inserter.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/clear.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/clear_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/preprocessor/default_params.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/variant/detail/variant_io.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/trackable.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/variadic_slot.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/detail/variadic_arg_type.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/detail/slot_template.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/detail/replace_slot_function.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/detail/result_type_wrapper.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/detail/slot_groups.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/detail/slot_call_iterator.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/detail/auto_buffer.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/multi_index/detail/scope_guard.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/swap.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/optional_last_value.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/mutex.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/detail/lwm_pthreads.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/variadic_signal.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/detail/variadic_slot_invoker.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/type_traits/function_traits.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/detail/signal_template.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/signal_type.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/parameters.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/detail/is_xxx.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/repetition/enum_shifted.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/aux_/arg_list.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/aux_/void.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/aux_/result_of0.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/aux_/default.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/aux_/parameter_requirements.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/aux_/yesno.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/aux_/is_maybe.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/config.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/begin.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/end.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/aux_/unwrap_cv_reference.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/aux_/tagged_argument.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/aux_/tag.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/aux_/template_keyword.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/aux_/set.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/insert.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/insert_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/insert_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/set/set0.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/set/aux_/at_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/at_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/set/aux_/has_key_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/set/aux_/tag.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/has_key_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/overload_names.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/ptr_to_ref.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/config/operators.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/set/aux_/clear_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/set/aux_/set0.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/set/aux_/size_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/set/aux_/empty_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/set/aux_/insert_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/set/aux_/item.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/base.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/set/aux_/erase_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/erase_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/set/aux_/erase_key_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/erase_key_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/set/aux_/key_type_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/key_type_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/set/aux_/value_type_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/value_type_fwd.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/set/aux_/begin_end_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/set/aux_/iterator.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/has_key.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/mpl/aux_/has_key_impl.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/aux_/overloads.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/keyword.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/binding.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/value_type.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/macros.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/match.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/name.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/preprocessor.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/aux_/parenthesized_type.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/aux_/cast.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/aux_/preprocessor/flatten.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/seq/for_each.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/selection/max.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/comparison/less_equal.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/logical/not.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/repetition/enum_trailing.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/parameter/aux_/preprocessor/for_each.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/detail/split.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/facilities/is_empty.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/for.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/repetition/deduce_r.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/comparison/equal.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/comparison/not_equal.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/seq/first_n.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/seq/detail/split.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/seq/for_each_product.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/seq/fold_left.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/seq/push_back.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/preprocessor/detail/is_nullary.hpp
+d/Users/bill/Tools/cinder_master/boost/boost/signals2/shared_connection_block.hpp
+d/Users/bill/Tools/cinder_master/include/cinder/app/Window.h
+d/Users/bill/Tools/cinder_master/include/cinder/app/MouseEvent.h
+d/Users/bill/Tools/cinder_master/include/cinder/app/Event.h
+d/Users/bill/Tools/cinder_master/include/cinder/app/TouchEvent.h
+d/Users/bill/Tools/cinder_master/include/cinder/app/KeyEvent.h
+d/Users/bill/Tools/cinder_master/include/cinder/app/FileDropEvent.h
+d/Users/bill/Tools/cinder_master/include/cinder/Timer.h
+d/Users/bill/Tools/cinder_master/include/cinder/Thread.h
+d/Users/bill/Tools/cinder_master/include/cinder/cocoa/CinderCocoa.h
+d/Users/bill/Tools/cinder_master/include/cinder/ImageIo.h
+d/Users/bill/Tools/cinder_master/include/cinder/DataTarget.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Precompile Vomit_Prefix.pch270"ProcessPCH++ /var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-etqjhffybceegnfqizorkmazgqax/Vomit_Prefix.pch.pch Vomit_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler4ab4b064252bb841^e5445368252bb841^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/Vomit_Prefix.pch0000000000000000^3056"ProcessPCH++ /var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-etqjhffybceegnfqizorkmazgqax/Vomit_Prefix.pch.pch Vomit_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-generated-files.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-own-target-headers.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-all-target-headers.hmap -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-project-headers.hmap -iquote../../../../../Tools/cinder_master/include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/include -I../../../../../Tools/cinder_master/boost -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources/i386 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources -F/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug --serialize-diagnostics /var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-etqjhffybceegnfqizorkmazgqax/Vomit_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-etqjhffybceegnfqizorkmazgqax/Vomit_Prefix.pch.d -c /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/Vomit_Prefix.pch -o /var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-etqjhffybceegnfqizorkmazgqax/Vomit_Prefix.pch.pch36"69B085F9-8126-4FD1-8686-7A3CE047CEFB-
+bCAB79DB0-D6E6-47DB-8543-FB00C0A48C5F
+
+CTouch /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Debug/Vomit.app
+r0
+

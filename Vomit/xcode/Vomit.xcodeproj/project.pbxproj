@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
+		00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
+		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		32827F520F2D42A2AF5689D4 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7D2D087F0A25496B813D190F /* CinderApp.icns */; };
+		41C04CF7D0624B76A196E049 /* VomitApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4886F41CBC54D6FAB22C889 /* VomitApp.cpp */; };
+		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		A9B52B22182B2510009B0D71 /* ciFaceTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B52AFD182B2510009B0D71 /* ciFaceTracker.cpp */; };
+		A9B52B23182B2510009B0D71 /* Expression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B52B01182B2510009B0D71 /* Expression.cpp */; };
+		A9B52B24182B2510009B0D71 /* ExpressionClassifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B52B03182B2510009B0D71 /* ExpressionClassifier.cpp */; };
+		A9B52B25182B2510009B0D71 /* license.md in Resources */ = {isa = PBXBuildFile; fileRef = A9B52B11182B2510009B0D71 /* license.md */; };
+		A9B52B26182B2510009B0D71 /* face.con in Resources */ = {isa = PBXBuildFile; fileRef = A9B52B13182B2510009B0D71 /* face.con */; };
+		A9B52B27182B2510009B0D71 /* face.tracker in Resources */ = {isa = PBXBuildFile; fileRef = A9B52B14182B2510009B0D71 /* face.tracker */; };
+		A9B52B28182B2510009B0D71 /* face.tri in Resources */ = {isa = PBXBuildFile; fileRef = A9B52B15182B2510009B0D71 /* face.tri */; };
+		A9B52B29182B2510009B0D71 /* face2.tracker in Resources */ = {isa = PBXBuildFile; fileRef = A9B52B16182B2510009B0D71 /* face2.tracker */; };
+		A9B52B2A182B2510009B0D71 /* CLM.cc in Sources */ = {isa = PBXBuildFile; fileRef = A9B52B19182B2510009B0D71 /* CLM.cc */; };
+		A9B52B2B182B2510009B0D71 /* FCheck.cc in Sources */ = {isa = PBXBuildFile; fileRef = A9B52B1A182B2510009B0D71 /* FCheck.cc */; };
+		A9B52B2C182B2510009B0D71 /* FDet.cc in Sources */ = {isa = PBXBuildFile; fileRef = A9B52B1B182B2510009B0D71 /* FDet.cc */; };
+		A9B52B2D182B2510009B0D71 /* IO.cc in Sources */ = {isa = PBXBuildFile; fileRef = A9B52B1C182B2510009B0D71 /* IO.cc */; };
+		A9B52B2E182B2510009B0D71 /* Patch.cc in Sources */ = {isa = PBXBuildFile; fileRef = A9B52B1D182B2510009B0D71 /* Patch.cc */; };
+		A9B52B2F182B2510009B0D71 /* PAW.cc in Sources */ = {isa = PBXBuildFile; fileRef = A9B52B1E182B2510009B0D71 /* PAW.cc */; };
+		A9B52B30182B2510009B0D71 /* PDM.cc in Sources */ = {isa = PBXBuildFile; fileRef = A9B52B1F182B2510009B0D71 /* PDM.cc */; };
+		A9B52B31182B2510009B0D71 /* Tracker.cc in Sources */ = {isa = PBXBuildFile; fileRef = A9B52B20182B2510009B0D71 /* Tracker.cc */; };
+		A9B52B32182B2510009B0D71 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A9B52B21182B2510009B0D71 /* README.md */; };
+		A9B52B36182B2C4A009B0D71 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B52B35182B2C4A009B0D71 /* QuickTime.framework */; };
+		A9B52B39182B2D13009B0D71 /* male_face.png in Resources */ = {isa = PBXBuildFile; fileRef = A9B52B37182B2D13009B0D71 /* male_face.png */; };
+		A9B52B3A182B2D13009B0D71 /* puking.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A9B52B38182B2D13009B0D71 /* puking.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1A81C73D78DF4D11A48A0F96 /* Vomit_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Vomit_Prefix.pch; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		560A72E3525F483787C45AF9 /* CinderOpenCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CinderOpenCV.h; path = ../blocks/OpenCV/include/CinderOpenCV.h; sourceTree = "<group>"; };
+		7D2D087F0A25496B813D190F /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Vomit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vomit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B52AFD182B2510009B0D71 /* ciFaceTracker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ciFaceTracker.cpp; sourceTree = "<group>"; };
+		A9B52AFE182B2510009B0D71 /* ciFaceTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ciFaceTracker.h; sourceTree = "<group>"; };
+		A9B52AFF182B2510009B0D71 /* ciFaceTrackerThreaded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ciFaceTrackerThreaded.h; sourceTree = "<group>"; };
+		A9B52B00182B2510009B0D71 /* ciThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ciThread.h; sourceTree = "<group>"; };
+		A9B52B01182B2510009B0D71 /* Expression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Expression.cpp; sourceTree = "<group>"; };
+		A9B52B02182B2510009B0D71 /* Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expression.h; sourceTree = "<group>"; };
+		A9B52B03182B2510009B0D71 /* ExpressionClassifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExpressionClassifier.cpp; sourceTree = "<group>"; };
+		A9B52B04182B2510009B0D71 /* ExpressionClassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressionClassifier.h; sourceTree = "<group>"; };
+		A9B52B09182B2510009B0D71 /* CLM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLM.h; sourceTree = "<group>"; };
+		A9B52B0A182B2510009B0D71 /* FCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCheck.h; sourceTree = "<group>"; };
+		A9B52B0B182B2510009B0D71 /* FDet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDet.h; sourceTree = "<group>"; };
+		A9B52B0C182B2510009B0D71 /* IO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IO.h; sourceTree = "<group>"; };
+		A9B52B0D182B2510009B0D71 /* Patch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patch.h; sourceTree = "<group>"; };
+		A9B52B0E182B2510009B0D71 /* PAW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAW.h; sourceTree = "<group>"; };
+		A9B52B0F182B2510009B0D71 /* PDM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDM.h; sourceTree = "<group>"; };
+		A9B52B10182B2510009B0D71 /* Tracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tracker.h; sourceTree = "<group>"; };
+		A9B52B11182B2510009B0D71 /* license.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.md; sourceTree = "<group>"; };
+		A9B52B13182B2510009B0D71 /* face.con */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = face.con; sourceTree = "<group>"; };
+		A9B52B14182B2510009B0D71 /* face.tracker */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = face.tracker; sourceTree = "<group>"; };
+		A9B52B15182B2510009B0D71 /* face.tri */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = face.tri; sourceTree = "<group>"; };
+		A9B52B16182B2510009B0D71 /* face2.tracker */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = face2.tracker; sourceTree = "<group>"; };
+		A9B52B19182B2510009B0D71 /* CLM.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CLM.cc; sourceTree = "<group>"; };
+		A9B52B1A182B2510009B0D71 /* FCheck.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FCheck.cc; sourceTree = "<group>"; };
+		A9B52B1B182B2510009B0D71 /* FDet.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FDet.cc; sourceTree = "<group>"; };
+		A9B52B1C182B2510009B0D71 /* IO.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IO.cc; sourceTree = "<group>"; };
+		A9B52B1D182B2510009B0D71 /* Patch.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Patch.cc; sourceTree = "<group>"; };
+		A9B52B1E182B2510009B0D71 /* PAW.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PAW.cc; sourceTree = "<group>"; };
+		A9B52B1F182B2510009B0D71 /* PDM.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PDM.cc; sourceTree = "<group>"; };
+		A9B52B20182B2510009B0D71 /* Tracker.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tracker.cc; sourceTree = "<group>"; };
+		A9B52B21182B2510009B0D71 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		A9B52B35182B2C4A009B0D71 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = System/Library/Frameworks/QuickTime.framework; sourceTree = SDKROOT; };
+		A9B52B37182B2D13009B0D71 /* male_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = male_face.png; path = ../resources/male_face.png; sourceTree = "<group>"; };
+		A9B52B38182B2D13009B0D71 /* puking.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = puking.m4a; path = ../resources/puking.m4a; sourceTree = "<group>"; };
+		C4886F41CBC54D6FAB22C889 /* VomitApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = VomitApp.cpp; path = ../src/VomitApp.cpp; sourceTree = "<group>"; };
+		C7F02602D81845539DA5C37C /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
+		C85D31AE1CAB4F3B96256A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
+				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
+				5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */,
+				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
+				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
+				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
+				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
+				A9B52B36182B2C4A009B0D71 /* QuickTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				A9B52AFC182B2510009B0D71 /* ciFaceTracker */,
+				7D6A255F5D0444E2AF32BFDE /* OpenCV */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C4886F41CBC54D6FAB22C889 /* VomitApp.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9B52B35182B2C4A009B0D71 /* QuickTime.framework */,
+				00B784AF0FF439BC000DE1D7 /* Accelerate.framework */,
+				00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */,
+				00B784B10FF439BC000DE1D7 /* AudioUnit.framework */,
+				00B784B20FF439BC000DE1D7 /* CoreAudio.framework */,
+				5323E6B50EAFCA7E003A9687 /* QTKit.framework */,
+				5323E6B10EAFCA74003A9687 /* CoreVideo.framework */,
+				0091D8F80E81B9330029341E /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Vomit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Vomit */ = {
+			isa = PBXGroup;
+			children = (
+				01B97315FEAEA392516A2CEA /* Blocks */,
+				29B97315FDCFA39411CA2CEA /* Headers */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Vomit;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				C7F02602D81845539DA5C37C /* Resources.h */,
+				1A81C73D78DF4D11A48A0F96 /* Vomit_Prefix.pch */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9B52B37182B2D13009B0D71 /* male_face.png */,
+				A9B52B38182B2D13009B0D71 /* puking.m4a */,
+				7D2D087F0A25496B813D190F /* CinderApp.icns */,
+				C85D31AE1CAB4F3B96256A2E /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C1696C06B464B8E8BDDC651 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				560A72E3525F483787C45AF9 /* CinderOpenCV.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		7D6A255F5D0444E2AF32BFDE /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				7C1696C06B464B8E8BDDC651 /* include */,
+			);
+			name = OpenCV;
+			sourceTree = "<group>";
+		};
+		A9B52AFC182B2510009B0D71 /* ciFaceTracker */ = {
+			isa = PBXGroup;
+			children = (
+				A9B52AFD182B2510009B0D71 /* ciFaceTracker.cpp */,
+				A9B52AFE182B2510009B0D71 /* ciFaceTracker.h */,
+				A9B52AFF182B2510009B0D71 /* ciFaceTrackerThreaded.h */,
+				A9B52B00182B2510009B0D71 /* ciThread.h */,
+				A9B52B01182B2510009B0D71 /* Expression.cpp */,
+				A9B52B02182B2510009B0D71 /* Expression.h */,
+				A9B52B03182B2510009B0D71 /* ExpressionClassifier.cpp */,
+				A9B52B04182B2510009B0D71 /* ExpressionClassifier.h */,
+				A9B52B05182B2510009B0D71 /* libs */,
+				A9B52B21182B2510009B0D71 /* README.md */,
+			);
+			name = ciFaceTracker;
+			path = ../blocks/ciFaceTracker;
+			sourceTree = "<group>";
+		};
+		A9B52B05182B2510009B0D71 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				A9B52B06182B2510009B0D71 /* FaceTracker */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		A9B52B06182B2510009B0D71 /* FaceTracker */ = {
+			isa = PBXGroup;
+			children = (
+				A9B52B07182B2510009B0D71 /* include */,
+				A9B52B11182B2510009B0D71 /* license.md */,
+				A9B52B12182B2510009B0D71 /* model */,
+				A9B52B17182B2510009B0D71 /* src */,
+			);
+			path = FaceTracker;
+			sourceTree = "<group>";
+		};
+		A9B52B07182B2510009B0D71 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A9B52B08182B2510009B0D71 /* FaceTracker */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A9B52B08182B2510009B0D71 /* FaceTracker */ = {
+			isa = PBXGroup;
+			children = (
+				A9B52B09182B2510009B0D71 /* CLM.h */,
+				A9B52B0A182B2510009B0D71 /* FCheck.h */,
+				A9B52B0B182B2510009B0D71 /* FDet.h */,
+				A9B52B0C182B2510009B0D71 /* IO.h */,
+				A9B52B0D182B2510009B0D71 /* Patch.h */,
+				A9B52B0E182B2510009B0D71 /* PAW.h */,
+				A9B52B0F182B2510009B0D71 /* PDM.h */,
+				A9B52B10182B2510009B0D71 /* Tracker.h */,
+			);
+			path = FaceTracker;
+			sourceTree = "<group>";
+		};
+		A9B52B12182B2510009B0D71 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A9B52B13182B2510009B0D71 /* face.con */,
+				A9B52B14182B2510009B0D71 /* face.tracker */,
+				A9B52B15182B2510009B0D71 /* face.tri */,
+				A9B52B16182B2510009B0D71 /* face2.tracker */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A9B52B17182B2510009B0D71 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A9B52B18182B2510009B0D71 /* lib */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		A9B52B18182B2510009B0D71 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A9B52B19182B2510009B0D71 /* CLM.cc */,
+				A9B52B1A182B2510009B0D71 /* FCheck.cc */,
+				A9B52B1B182B2510009B0D71 /* FDet.cc */,
+				A9B52B1C182B2510009B0D71 /* IO.cc */,
+				A9B52B1D182B2510009B0D71 /* Patch.cc */,
+				A9B52B1E182B2510009B0D71 /* PAW.cc */,
+				A9B52B1F182B2510009B0D71 /* PDM.cc */,
+				A9B52B20182B2510009B0D71 /* Tracker.cc */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Vomit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Vomit" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vomit;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Vomit;
+			productReference = 8D1107320486CEB800E47090 /* Vomit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Vomit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Vomit */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Vomit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B52B26182B2510009B0D71 /* face.con in Resources */,
+				A9B52B27182B2510009B0D71 /* face.tracker in Resources */,
+				A9B52B3A182B2D13009B0D71 /* puking.m4a in Resources */,
+				A9B52B29182B2510009B0D71 /* face2.tracker in Resources */,
+				A9B52B32182B2510009B0D71 /* README.md in Resources */,
+				A9B52B25182B2510009B0D71 /* license.md in Resources */,
+				A9B52B39182B2D13009B0D71 /* male_face.png in Resources */,
+				A9B52B28182B2510009B0D71 /* face.tri in Resources */,
+				32827F520F2D42A2AF5689D4 /* CinderApp.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B52B30182B2510009B0D71 /* PDM.cc in Sources */,
+				A9B52B2F182B2510009B0D71 /* PAW.cc in Sources */,
+				A9B52B31182B2510009B0D71 /* Tracker.cc in Sources */,
+				A9B52B2A182B2510009B0D71 /* CLM.cc in Sources */,
+				A9B52B2D182B2510009B0D71 /* IO.cc in Sources */,
+				41C04CF7D0624B76A196E049 /* VomitApp.cpp in Sources */,
+				A9B52B2E182B2510009B0D71 /* Patch.cc in Sources */,
+				A9B52B23182B2510009B0D71 /* Expression.cpp in Sources */,
+				A9B52B24182B2510009B0D71 /* ExpressionClassifier.cpp in Sources */,
+				A9B52B22182B2510009B0D71 /* ciFaceTracker.cpp in Sources */,
+				A9B52B2C182B2510009B0D71 /* FDet.cc in Sources */,
+				A9B52B2B182B2510009B0D71 /* FCheck.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Vomit_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/libcinder_d.a\"",
+					../blocks/OpenCV/lib/macosx/libopencv_calib3d.a,
+					../blocks/OpenCV/lib/macosx/libopencv_contrib.a,
+					../blocks/OpenCV/lib/macosx/libopencv_core.a,
+					../blocks/OpenCV/lib/macosx/libopencv_features2d.a,
+					../blocks/OpenCV/lib/macosx/libopencv_flann.a,
+					../blocks/OpenCV/lib/macosx/libopencv_gpu.a,
+					../blocks/OpenCV/lib/macosx/libopencv_imgproc.a,
+					../blocks/OpenCV/lib/macosx/libopencv_legacy.a,
+					../blocks/OpenCV/lib/macosx/libopencv_ml.a,
+					../blocks/OpenCV/lib/macosx/libopencv_nonfree.a,
+					../blocks/OpenCV/lib/macosx/libopencv_objdetect.a,
+					../blocks/OpenCV/lib/macosx/libopencv_photo.a,
+					../blocks/OpenCV/lib/macosx/libopencv_stitching.a,
+					../blocks/OpenCV/lib/macosx/libopencv_ts.a,
+					../blocks/OpenCV/lib/macosx/libopencv_video.a,
+					../blocks/OpenCV/lib/macosx/libopencv_videostab.a,
+				);
+				PRODUCT_NAME = Vomit;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Vomit_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/libcinder.a\"",
+					../blocks/OpenCV/lib/macosx/libopencv_calib3d.a,
+					../blocks/OpenCV/lib/macosx/libopencv_contrib.a,
+					../blocks/OpenCV/lib/macosx/libopencv_core.a,
+					../blocks/OpenCV/lib/macosx/libopencv_features2d.a,
+					../blocks/OpenCV/lib/macosx/libopencv_flann.a,
+					../blocks/OpenCV/lib/macosx/libopencv_gpu.a,
+					../blocks/OpenCV/lib/macosx/libopencv_imgproc.a,
+					../blocks/OpenCV/lib/macosx/libopencv_legacy.a,
+					../blocks/OpenCV/lib/macosx/libopencv_ml.a,
+					../blocks/OpenCV/lib/macosx/libopencv_nonfree.a,
+					../blocks/OpenCV/lib/macosx/libopencv_objdetect.a,
+					../blocks/OpenCV/lib/macosx/libopencv_photo.a,
+					../blocks/OpenCV/lib/macosx/libopencv_stitching.a,
+					../blocks/OpenCV/lib/macosx/libopencv_ts.a,
+					../blocks/OpenCV/lib/macosx/libopencv_video.a,
+					../blocks/OpenCV/lib/macosx/libopencv_videostab.a,
+				);
+				PRODUCT_NAME = Vomit;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = ../../../../../Tools/cinder_master;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(CINDER_PATH)/boost\"",
+					"$(SRCROOT)/../blocks/ciFaceTracker/libs/FaceTracker/include",
+					"$(SRCROOT)/../blocks/OpenCV/include",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include ../blocks/OpenCV/include ../blocks/OpenCV/include/opencv2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = ../../../../../Tools/cinder_master;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(CINDER_PATH)/boost\"",
+					"$(SRCROOT)/../blocks/ciFaceTracker/libs/FaceTracker/include",
+					"$(SRCROOT)/../blocks/OpenCV/include",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include ../blocks/OpenCV/include ../blocks/OpenCV/include/opencv2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Vomit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Vomit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

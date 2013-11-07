@@ -1,0 +1,3 @@
+[submodule "Vomit/blocks/ciFaceTracker"]
+	path = Vomit/blocks/ciFaceTracker
+	url = https://github.com/Hebali/ciFaceTracker.git
