@@ -40,21 +40,26 @@ namespace ph {
         
         void push(Data const& data)
         {
-            boost::mutex::scoped_lock lock(mMutex);
-            mQueue.push(data);
-            lock.unlock();
+            //boost::mutex::scoped_lock lock(mMutex);
+            {
+                std::lock_guard<std::mutex> lock(mMutex);
+                mQueue.push(data);
+            }
+            // lock.unlock();
             mCondition.notify_one();
         }
         
         bool empty() const
         {
-            boost::mutex::scoped_lock lock(mMutex);
+            //boost::mutex::scoped_lock lock(mMutex);
+            std::lock_guard<std::mutex> lock(mMutex);
             return mQueue.empty();
         }
         
         bool try_pop(Data& popped_value)
         {
-            boost::mutex::scoped_lock lock(mMutex);
+            // boost::mutex::scoped_lock lock(mMutex);
+            std::lock_guard<std::mutex> lock(mMutex);
             if(mQueue.empty())
             {
                 return false;
@@ -67,7 +72,8 @@ namespace ph {
         
         void wait_and_pop(Data& popped_value)
         {
-            boost::mutex::scoped_lock lock(mMutex);
+            //boost::mutex::scoped_lock lock(mMutex);
+            std::lock_guard<std::mutex> lock(mMutex);
             while(mQueue.empty())
             {
                 mCondition.wait(lock);
@@ -76,10 +82,14 @@ namespace ph {
             popped_value=mQueue.front();
             mQueue.pop();
         }
+        
         std::size_t size() const { return mQueue.size(); }
+        
     private:
+        
+        //mutable boost::mutex	mMutex;
+        std::mutex              mMutex;
         std::queue<Data>		mQueue;
-        mutable boost::mutex	mMutex;
         std::condition_variable	mCondition;
     };
     

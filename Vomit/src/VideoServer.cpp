@@ -39,7 +39,7 @@ void VideoServer::start(const ci::Vec2i & size, const int portNum)
                 
 				// render the name as a texture
 				TextLayout layout;
-				layout.setFont( Font( "Arial", 24 ) );
+				layout.setFont( Font( "Arial", 12 ) );
 				layout.setColor( Color( 1, 1, 1 ) );
 				layout.addLine( device->getName() );
 				mNameTexture = gl::Texture( layout.render( true ) );
@@ -80,7 +80,12 @@ bool VideoServer::isRunning()
 {
     return mIsRunning;
 }
-
+/*
+Surface8u & VideoServer::getSurface()
+{
+    return mSurface;
+}
+*/
 void VideoServer::update()
 {
     if (mCapture.checkNewFrame())

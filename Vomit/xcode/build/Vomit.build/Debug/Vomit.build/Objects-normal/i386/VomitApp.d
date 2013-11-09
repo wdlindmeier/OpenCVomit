@@ -1,4 +1,4 @@
-dependencies: /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.cpp \
+dependencies: /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.mm \
   /Users/bill/Tools/cinder_master/include/cinder/qtime/QuickTime.h \
   /Users/bill/Tools/cinder_master/include/cinder/gl/Texture.h \
   /Users/bill/Tools/cinder_master/include/cinder/app/AppNative.h \
@@ -236,15 +236,16 @@ dependencies: /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.cpp \
   /Users/bill/Tools/cinder_master/boost/boost/asio/basic_socket_acceptor.hpp \
   /Users/bill/Tools/cinder_master/boost/boost/asio/socket_acceptor_service.hpp \
   /Users/bill/Tools/cinder_master/boost/boost/asio/basic_socket_iostream.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/utility/base_from_member.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/preprocessor/arithmetic/inc.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/preprocessor/repetition/enum_binary_params.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/preprocessor/repetition/enum_params.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/preprocessor/repetition/repeat_from_to.hpp \
   /Users/bill/Tools/cinder_master/boost/boost/asio/basic_socket_streambuf.hpp \
   /Users/bill/Tools/cinder_master/boost/boost/asio/detail/array.hpp \
   /Users/bill/Tools/cinder_master/boost/boost/array.hpp \
   /Users/bill/Tools/cinder_master/boost/boost/functional/hash_fwd.hpp \
   /Users/bill/Tools/cinder_master/boost/boost/asio/stream_socket_service.hpp \
-  /Users/bill/Tools/cinder_master/boost/boost/preprocessor/arithmetic/inc.hpp \
-  /Users/bill/Tools/cinder_master/boost/boost/preprocessor/repetition/enum_binary_params.hpp \
-  /Users/bill/Tools/cinder_master/boost/boost/preprocessor/repetition/enum_params.hpp \
-  /Users/bill/Tools/cinder_master/boost/boost/preprocessor/repetition/repeat_from_to.hpp \
   /Users/bill/Tools/cinder_master/boost/boost/asio/basic_stream_socket.hpp \
   /Users/bill/Tools/cinder_master/boost/boost/asio/basic_streambuf.hpp \
   /Users/bill/Tools/cinder_master/boost/boost/asio/basic_streambuf_fwd.hpp \
@@ -390,12 +391,18 @@ dependencies: /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.cpp \
   /Users/bill/Tools/cinder_master/boost/boost/numeric/conversion/detail/numeric_cast_traits.hpp \
   /Users/bill/Tools/cinder_master/boost/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp \
   /Users/bill/Tools/cinder_master/boost/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp \
-  /Users/bill/Tools/cinder_master/boost/boost/type_traits/has_left_shift.hpp \
-  /Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/has_binary_operator.hpp \
-  /Users/bill/Tools/cinder_master/boost/boost/type_traits/is_fundamental.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/type_traits/make_unsigned.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/type_traits/is_signed.hpp \
   /Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/bool_trait_def.hpp \
   /Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/template_arity_spec.hpp \
   /Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/bool_trait_undef.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/type_traits/is_unsigned.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/type_traits/add_volatile.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/type_trait_def.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/type_trait_undef.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/type_traits/has_left_shift.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/type_traits/detail/has_binary_operator.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/type_traits/is_fundamental.hpp \
   /Users/bill/Tools/cinder_master/boost/boost/type_traits/has_right_shift.hpp \
   /Users/bill/Tools/cinder_master/boost/boost/math/special_functions/sign.hpp \
   /Users/bill/Tools/cinder_master/boost/boost/math/tools/config.hpp \
@@ -462,6 +469,44 @@ dependencies: /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.cpp \
   /Users/bill/Tools/cinder_master/boost/boost/detail/endian.hpp \
   /Users/bill/Tools/cinder_master/boost/boost/math/special_functions/fpclassify.hpp \
   /Users/bill/Tools/cinder_master/boost/boost/math/tools/real_cast.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/iterator_range_core.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/functions.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/begin.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/config.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/iterator.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/mutable_iterator.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/detail/extract_optional_type.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/const_iterator.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/end.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/detail/implementation_help.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/detail/common.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/detail/sfinae.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/size.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/size_type.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/difference_type.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/distance.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/empty.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/rbegin.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/reverse_iterator.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/rend.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/algorithm/equal.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/concepts.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/concept_check.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/concept/assert.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/concept/detail/general.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/concept/detail/backward_compatibility.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/concept/detail/has_constraints.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/type_traits/conversion_traits.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/concept/usage.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/concept/detail/concept_def.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/preprocessor/seq/for_each_i.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/preprocessor/seq/enum.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/preprocessor/comma_if.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/concept/detail/concept_undef.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/iterator/iterator_concepts.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/value_type.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/detail/misc_concept.hpp \
+  /Users/bill/Tools/cinder_master/boost/boost/range/detail/safe_bool.hpp \
   /Users/bill/Tools/cinder_master/boost/boost/container/container_fwd.hpp \
   /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/VideoStreaming/include/CinderVideoStreamServer.h \
   /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/VideoStreaming/include/ConcurrentQueue.h \
@@ -510,4 +555,5 @@ dependencies: /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.cpp \
   /Users/bill/Tools/cinder_master/boost/boost/chrono/ceil.hpp \
   /Users/bill/Tools/cinder_master/include/cinder/Text.h \
   /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../include/VideoClient.h \
-  /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/VideoStreaming/include/CinderVideoStreamClient.h
+  /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/VideoStreaming/include/CinderVideoStreamClient.h \
+  /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/ControlView.h

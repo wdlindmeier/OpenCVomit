@@ -34,7 +34,7 @@ public:
     void disconnect();
     void update();
     void render();
-    ci::Surface8u & getSurface();
+    ci::Surface8u getSurface();
     bool isConnected();
     
 protected:
@@ -57,4 +57,6 @@ protected:
     std::string         mStatus;
 
     ph::ConcurrentQueue<uint8_t*>* mQueueFromServer;
+    
+    mutable boost::mutex mSurfaceMutex;
 };

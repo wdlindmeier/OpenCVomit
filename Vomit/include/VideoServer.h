@@ -36,6 +36,7 @@ public:
     void update();
     void render();
     bool isRunning();
+    //ci::Surface8u & getSurface();
     
 protected:
     
@@ -48,6 +49,7 @@ protected:
     ci::gl::Texture     mTexture;
     ci::gl::Texture     mNameTexture;
     std::string         mStatus;
+    //ci::Surface8u       mSurface;
     
     std::shared_ptr<std::thread> mServerThreadRef;
     ServerRef           mServer;

@@ -17,8 +17,9 @@ VideoClient::~VideoClient()
     disconnect();
 }
 
-ci::Surface8u & VideoClient::getSurface()
+ci::Surface8u VideoClient::getSurface()
 {
+    boost::mutex::scoped_lock lock(mSurfaceMutex);
     return mStreamSurface;
 }
 
@@ -60,15 +61,20 @@ void VideoClient::disconnect()
 
 void VideoClient::update()
 {
+    // boost::mutex::scoped_lock lock(mSurfaceMutex);
+    // mQueueFromServer->mMutex.lock();
     if (mQueueFromServer->try_pop(mData))
     {
+        mSurfaceMutex.lock();
         memcpy(mStreamSurface.getData(), mData, mSize.x * mSize.y * 3);
         mTexture = gl::Texture( mStreamSurface );
+        mSurfaceMutex.unlock();
     }
+    // mQueueFromServer->mMutex.unlock();
     
     if (mIsConnected)
     {
-        mStatus = "Client: " + std::to_string(ci::app::getFrameRate()) + " fps: " + *mClientStatus;
+        mStatus = "Client: " + *mClientStatus + " fps: " + std::to_string((int)ci::app::getFrameRate());
     }
     else
     {
