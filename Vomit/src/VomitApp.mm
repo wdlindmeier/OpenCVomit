@@ -19,7 +19,7 @@ using namespace ci::app;
 const static int kVideoWidth = 640;
 const static int kVideoHeight = 480;
 const static int kServerPortSend = 3333;
-const static int kServerPortReceive = 3334;
+const static int kServerPortReceive = 3333;
 
 class VomitApp : public AppNative {
   public:

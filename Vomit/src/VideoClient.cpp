@@ -62,7 +62,6 @@ void VideoClient::disconnect()
 void VideoClient::update()
 {
     // boost::mutex::scoped_lock lock(mSurfaceMutex);
-    // mQueueFromServer->mMutex.lock();
     if (mQueueFromServer->try_pop(mData))
     {
         mSurfaceMutex.lock();
