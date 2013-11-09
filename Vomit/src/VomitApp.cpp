@@ -6,20 +6,31 @@
 #include "cinder/Capture.h"
 #include "CinderOpenCv.h"
 #include "ciFaceTracker.h"
+#include "VideoServer.h"
+#include "VideoClient.h"
 
 using namespace ci;
 using namespace ci::app;
+
+const static int kVideoWidth = 640;
+const static int kVideoHeight = 480;
+const static int kServerPort = 3333;
 
 class VomitApp : public AppNative {
   public:
     void prepareSettings(Settings *settings);
 	void setup();
-	void draw();
+
     void update();
+    void trackClientFace();
 	
-	gl::TextureRef      mTexture;
-    CaptureRef          mCapture;
-    ciFaceTracker       mFaceTracker;
+    void draw();
+    void renderTracker();
+
+    VideoServer         mVideoServer;
+    VideoClient         mVideoClient;
+
+	ciFaceTracker       mFaceTracker;
     qtime::MovieGlRef   mPukeSound;
     
     float               mAmtMouthOpen;
@@ -28,14 +39,21 @@ class VomitApp : public AppNative {
 
 void VomitApp::prepareSettings(Settings *settings)
 {
-    settings->setWindowSize(640, 480); //image size
+    settings->setWindowSize(kVideoWidth * 2, kVideoHeight);
 }
 
 void VomitApp::setup()
 {
+    Vec2i videoSize(kVideoWidth,kVideoHeight);
+    
+    // Stream video
+    mVideoServer.start(videoSize, kServerPort);
+    
+    // Connecting to self for now.
+    // This will / should be another person.
+    mVideoClient.connect("localhost", kServerPort, videoSize);
+    
     mFaceTracker.setup();
-    mCapture = Capture::create( 640, 480 );
-    mCapture->start();
     
     mPukeSound = qtime::MovieGl::create( getResourcePath("puking.m4a") );
     mPukeSound->setLoop();
@@ -43,45 +61,55 @@ void VomitApp::setup()
 
 void VomitApp::update()
 {
-    if(mCapture && mCapture->checkNewFrame())
-    {
-        Surface camSurf = mCapture->getSurface();
-        cv::Mat input(toOcv(camSurf));
-        mFaceTracker.update(input);
-        mTexture = gl::Texture::create(camSurf);
+    mVideoServer.update();
+    mVideoClient.update();
+    trackClientFace();
+}
 
-        mAmtMouthOpen = mFaceTracker.getGesture(ciFaceTracker::MOUTH_HEIGHT);
-        mAmtJawOpen = mFaceTracker.getGesture(ciFaceTracker::JAW_OPENNESS);
-        
-        if (mAmtMouthOpen > 3)
-        {
-            mPukeSound->play();
-        }
-        else
-        {
-            mPukeSound->stop();
-        }
+void VomitApp::trackClientFace()
+{
+    Surface incomingSurf = mVideoClient.getSurface();
+    cv::Mat input(toOcv(incomingSurf));
+    mFaceTracker.update(input);
+
+    mAmtMouthOpen = mFaceTracker.getGesture(ciFaceTracker::MOUTH_HEIGHT);
+    mAmtJawOpen = mFaceTracker.getGesture(ciFaceTracker::JAW_OPENNESS);
+    
+    if (mAmtMouthOpen > 3)
+    {
+        mPukeSound->play();
+    }
+    else
+    {
+        mPukeSound->stop();
     }
 }
 
 void VomitApp::draw()
 {
-    gl::color(Color::white());
-    gl::enableAlphaBlending();
-
 	gl::clear(Color(0,0,0));
-    if (mTexture)
-    {
-        gl::draw(mTexture);
     
-        mFaceTracker.draw(true);
-        
-        gl::color(Color::black());
-        gl::drawSolidRect(Rectf(5,5,150,45));
+    mVideoServer.render();
+    mVideoClient.render();
+    renderTracker();
+}
 
-        gl::drawString("Mouth Open: " + std::to_string(mAmtMouthOpen), Vec2i(10,10));
-        gl::drawString("Jaw Open: " + std::to_string(mAmtJawOpen), Vec2i(10,25));
-    }
+void VomitApp::renderTracker()
+{
+    gl::pushMatrices();
+    
+    gl::translate(Vec2i(kVideoWidth,0));
+
+    mFaceTracker.draw(true);
+    
+    gl::color(Color::black());
+    
+    gl::drawSolidRect(Rectf(0,30,150,70));
+    
+    gl::drawString("Mouth Open: " + std::to_string(mAmtMouthOpen), Vec2i(10,40));
+    gl::drawString("Jaw Open: " + std::to_string(mAmtJawOpen), Vec2i(10,55));
+
+    gl::popMatrices();
 }
 
 CINDER_APP_NATIVE( VomitApp, RendererGl )

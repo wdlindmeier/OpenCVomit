@@ -17,6 +17,8 @@
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		A9B30649182E850C00DEB3D7 /* VideoServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B30647182E850C00DEB3D7 /* VideoServer.cpp */; };
+		A9B3064D182E8D7600DEB3D7 /* VideoClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B3064B182E8D7600DEB3D7 /* VideoClient.cpp */; };
 		A9B52B22182B2510009B0D71 /* ciFaceTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B52AFD182B2510009B0D71 /* ciFaceTracker.cpp */; };
 		A9B52B23182B2510009B0D71 /* Expression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B52B01182B2510009B0D71 /* Expression.cpp */; };
 		A9B52B24182B2510009B0D71 /* ExpressionClassifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B52B03182B2510009B0D71 /* ExpressionClassifier.cpp */; };
@@ -54,6 +56,13 @@
 		560A72E3525F483787C45AF9 /* CinderOpenCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CinderOpenCV.h; path = ../blocks/OpenCV/include/CinderOpenCV.h; sourceTree = "<group>"; };
 		7D2D087F0A25496B813D190F /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Vomit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vomit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B30643182E7C4800DEB3D7 /* CinderVideoStreamClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinderVideoStreamClient.h; sourceTree = "<group>"; };
+		A9B30644182E7C4800DEB3D7 /* CinderVideoStreamServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinderVideoStreamServer.h; sourceTree = "<group>"; };
+		A9B30645182E7C4800DEB3D7 /* ConcurrentQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcurrentQueue.h; sourceTree = "<group>"; };
+		A9B30647182E850C00DEB3D7 /* VideoServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VideoServer.cpp; path = ../src/VideoServer.cpp; sourceTree = "<group>"; };
+		A9B3064A182E89EC00DEB3D7 /* VideoServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoServer.h; path = ../include/VideoServer.h; sourceTree = "<group>"; };
+		A9B3064B182E8D7600DEB3D7 /* VideoClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VideoClient.cpp; path = ../src/VideoClient.cpp; sourceTree = "<group>"; };
+		A9B3064E182E8D8D00DEB3D7 /* VideoClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoClient.h; path = ../include/VideoClient.h; sourceTree = "<group>"; };
 		A9B52AFD182B2510009B0D71 /* ciFaceTracker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ciFaceTracker.cpp; sourceTree = "<group>"; };
 		A9B52AFE182B2510009B0D71 /* ciFaceTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ciFaceTracker.h; sourceTree = "<group>"; };
 		A9B52AFF182B2510009B0D71 /* ciFaceTrackerThreaded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ciFaceTrackerThreaded.h; sourceTree = "<group>"; };
@@ -115,6 +124,7 @@
 		01B97315FEAEA392516A2CEA /* Blocks */ = {
 			isa = PBXGroup;
 			children = (
+				A9B30641182E7C4800DEB3D7 /* VideoStreaming */,
 				A9B52AFC182B2510009B0D71 /* ciFaceTracker */,
 				7D6A255F5D0444E2AF32BFDE /* OpenCV */,
 			);
@@ -124,6 +134,8 @@
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				A9B3064B182E8D7600DEB3D7 /* VideoClient.cpp */,
+				A9B30647182E850C00DEB3D7 /* VideoServer.cpp */,
 				C4886F41CBC54D6FAB22C889 /* VomitApp.cpp */,
 			);
 			name = Source;
@@ -179,6 +191,8 @@
 			isa = PBXGroup;
 			children = (
 				C7F02602D81845539DA5C37C /* Resources.h */,
+				A9B3064E182E8D8D00DEB3D7 /* VideoClient.h */,
+				A9B3064A182E89EC00DEB3D7 /* VideoServer.h */,
 				1A81C73D78DF4D11A48A0F96 /* Vomit_Prefix.pch */,
 			);
 			name = Headers;
@@ -218,6 +232,33 @@
 				7C1696C06B464B8E8BDDC651 /* include */,
 			);
 			name = OpenCV;
+			sourceTree = "<group>";
+		};
+		A9B30641182E7C4800DEB3D7 /* VideoStreaming */ = {
+			isa = PBXGroup;
+			children = (
+				A9B30642182E7C4800DEB3D7 /* include */,
+				A9B30646182E7C4800DEB3D7 /* src */,
+			);
+			name = VideoStreaming;
+			path = ../blocks/VideoStreaming;
+			sourceTree = "<group>";
+		};
+		A9B30642182E7C4800DEB3D7 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A9B30643182E7C4800DEB3D7 /* CinderVideoStreamClient.h */,
+				A9B30644182E7C4800DEB3D7 /* CinderVideoStreamServer.h */,
+				A9B30645182E7C4800DEB3D7 /* ConcurrentQueue.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A9B30646182E7C4800DEB3D7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 		A9B52AFC182B2510009B0D71 /* ciFaceTracker */ = {
@@ -387,11 +428,13 @@
 			files = (
 				A9B52B30182B2510009B0D71 /* PDM.cc in Sources */,
 				A9B52B2F182B2510009B0D71 /* PAW.cc in Sources */,
+				A9B3064D182E8D7600DEB3D7 /* VideoClient.cpp in Sources */,
 				A9B52B31182B2510009B0D71 /* Tracker.cc in Sources */,
 				A9B52B2A182B2510009B0D71 /* CLM.cc in Sources */,
 				A9B52B2D182B2510009B0D71 /* IO.cc in Sources */,
 				41C04CF7D0624B76A196E049 /* VomitApp.cpp in Sources */,
 				A9B52B2E182B2510009B0D71 /* Patch.cc in Sources */,
+				A9B30649182E850C00DEB3D7 /* VideoServer.cpp in Sources */,
 				A9B52B23182B2510009B0D71 /* Expression.cpp in Sources */,
 				A9B52B24182B2510009B0D71 /* ExpressionClassifier.cpp in Sources */,
 				A9B52B22182B2510009B0D71 /* ciFaceTracker.cpp in Sources */,
