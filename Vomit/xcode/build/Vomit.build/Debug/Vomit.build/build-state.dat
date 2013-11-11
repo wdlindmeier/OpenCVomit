@@ -839,9 +839,9 @@ t1384028109
 s1421
 
 N/Users/bill/Documents/ITP/AIT-CV/Vomit/include/VideoServer.h
-c00000000527E985E0000000000000520
-t1384028254
-s1312
+c00000000527EA8AA00000000000004D8
+t1384032426
+s1240
 
 N/Users/bill/Documents/ITP/AIT-CV/Vomit/resources/CinderApp.icns
 c00000000527AED650000000000070375
@@ -859,9 +859,9 @@ t1383789945
 s336407
 
 N/Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoClient.cpp
-c00000000527E9BDD0000000000000BC3
-t1384029149
-s3011
+c00000000527EA8CB0000000000000B9B
+t1384032459
+s2971
 
 N/Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoServer.cpp
 c00000000527E986A0000000000000D77
@@ -874,9 +874,9 @@ t1384013566
 s2549
 
 N/Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.mm
-c00000000527EA55D000000000000134F
-t1384031581
-s4943
+c00000000527EA8D30000000000001343
+t1384032467
+s4931
 
 N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/ControlView.h
 c00000000527EA1ED000000000000022E
@@ -922,7 +922,7 @@ t1383793472
 s1477
 
 N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/MacOS/Vomit
-t1384031586
+t1384195598
 s5545804
 
 N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/Vomit.app/Contents/PkgInfo
@@ -1018,11 +1018,11 @@ t1383793682
 s425000
 
 N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoClient.o
-t1384031070
+t1384195596
 s3001692
 
 N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoServer.o
-t1384031070
+t1384195597
 s3000744
 
 N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Vomit.LinkFileList
@@ -1031,7 +1031,7 @@ t1384015938
 s1677
 
 N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.o
-t1384031585
+t1384195597
 s2536704
 
 N/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/ciFaceTracker.o
@@ -6984,7 +6984,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies750523e9dc2eb841^895d23e9dc2eb841^---0#1#1#--18"Check dependencies36"BA7C3B0C-7ACA-43AD-9224-F917DE5F09A8-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciescf9e8f885d31b841^72f9a7885d31b841^---0#1#1#--18"Check dependencies36"6CC423D6-7797-43F2-AB0B-E4CF17880EAD-
 
 CCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/CLM.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/libs/FaceTracker/src/lib/CLM.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s405486480.372536
@@ -7615,8 +7615,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compil
 bB4D3A16F-E248-4EC7-99E3-DE91E3A47AE8
 
 CCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoClient.o /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoClient.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s405723866.933610
-e405723870.063220
+s405888392.672086
+e405888396.816133
 r1
 xCompileC
 x./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoClient.o
@@ -8092,12 +8092,12 @@ d/Users/bill/Tools/cinder_master/boost/boost/chrono/clock_string.hpp
 d/Users/bill/Tools/cinder_master/boost/boost/chrono/ceil.hpp
 d/Users/bill/Tools/cinder_master/include/cinder/gl/Texture.h
 d/Users/bill/Tools/cinder_master/include/cinder/Text.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoClient.cpp199"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoClient.o /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoClient.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler3527efdada2eb841^7b3110deda2eb841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoClient.cpp0000000000000000^3133"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoClient.o /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoClient.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-generated-files.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-own-target-headers.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-all-target-headers.hmap -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-project-headers.hmap -iquote/Users/bill/Tools/cinder_master/include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/include -I/Users/bill/Tools/cinder_master/boost -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/ciFaceTracker/libs/FaceTracker/include -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/OpenCV/include -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources/i386 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources -F/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug -include /var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-drmkmaqinefmyeanecvvzcxxfnxd/Vomit_Prefix.pch -MMD -MT dependencies -MF /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoClient.d --serialize-diagnostics /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoClient.dia -c /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoClient.cpp -o /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoClient.o36"08391B46-4D70-4484-AEC8-4186A7A03703-
-bFA8ABBEE-7150-4BE7-8492-6B5F1D439C1D
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoClient.cpp199"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoClient.o /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoClient.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler2e20ac885d31b841^f2eed08c5d31b841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoClient.cpp0000000000000000^3133"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoClient.o /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoClient.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-generated-files.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-own-target-headers.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-all-target-headers.hmap -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-project-headers.hmap -iquote/Users/bill/Tools/cinder_master/include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/include -I/Users/bill/Tools/cinder_master/boost -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/ciFaceTracker/libs/FaceTracker/include -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/OpenCV/include -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources/i386 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources -F/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug -include /var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-drmkmaqinefmyeanecvvzcxxfnxd/Vomit_Prefix.pch -MMD -MT dependencies -MF /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoClient.d --serialize-diagnostics /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoClient.dia -c /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoClient.cpp -o /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoClient.o36"6067071B-E042-4697-8F46-3B8C042DCCA8-
+b26A01C34-75C1-4A77-88A0-D89D007F107E
 
 CCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoServer.o /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoServer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s405723866.935974
-e405723870.486973
+s405888392.675084
+e405888397.187638
 r1
 xCompileC
 x./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoServer.o
@@ -8602,8 +8602,8 @@ d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/highgui/hi
 d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/contrib/contrib.hpp
 d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/contrib/retina.hpp
 d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/OpenCV/include/opencv2/contrib/openfabmap.hpp
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoServer.cpp199"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoServer.o /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoServer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilera1bcefdada2eb841^b9aa7cdeda2eb841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoServer.cpp0000000000000000^3133"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoServer.o /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoServer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-generated-files.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-own-target-headers.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-all-target-headers.hmap -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-project-headers.hmap -iquote/Users/bill/Tools/cinder_master/include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/include -I/Users/bill/Tools/cinder_master/boost -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/ciFaceTracker/libs/FaceTracker/include -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/OpenCV/include -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources/i386 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources -F/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug -include /var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-drmkmaqinefmyeanecvvzcxxfnxd/Vomit_Prefix.pch -MMD -MT dependencies -MF /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoServer.d --serialize-diagnostics /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoServer.dia -c /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoServer.cpp -o /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoServer.o36"00692ED5-7E05-428B-AC51-21F94CD47BC7-
-bFA8ABBEE-7150-4BE7-8492-6B5F1D439C1D
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoServer.cpp199"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoServer.o /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoServer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler7deaac885d31b841^7c0a308d5d31b841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoServer.cpp0000000000000000^3133"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoServer.o /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoServer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-generated-files.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-own-target-headers.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-all-target-headers.hmap -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-project-headers.hmap -iquote/Users/bill/Tools/cinder_master/include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/include -I/Users/bill/Tools/cinder_master/boost -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/ciFaceTracker/libs/FaceTracker/include -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/OpenCV/include -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources/i386 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources -F/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug -include /var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-drmkmaqinefmyeanecvvzcxxfnxd/Vomit_Prefix.pch -MMD -MT dependencies -MF /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoServer.d --serialize-diagnostics /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoServer.dia -c /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VideoServer.cpp -o /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VideoServer.o36"7FEB4807-A0D5-4FA7-BEAD-4A791CEBD937-
+b26A01C34-75C1-4A77-88A0-D89D007F107E
 
 CCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.o /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s405706366.670807
@@ -9133,8 +9133,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile
 b15F14593-C88C-48C2-9060-FD493DCD04ED
 
 CCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.o /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s405724382.059881
-e405724385.729821
+s405888392.673742
+e405888397.543109
 r1
 xCompileC
 x./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.o
@@ -9702,8 +9702,8 @@ d/Users/bill/Tools/cinder_master/include/cinder/Text.h
 d/Users/bill/Documents/ITP/AIT-CV/Vomit/include/VideoClient.h
 d/Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/VideoStreaming/include/CinderVideoStreamClient.h
 d/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/ControlView.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.mm202"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.o /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler34690fdedc2eb841^0ad8bae1dc2eb841^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.mm0000000000000000^3326"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.o /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-generated-files.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-own-target-headers.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-all-target-headers.hmap -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-project-headers.hmap -iquote/Users/bill/Tools/cinder_master/include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/include -I/Users/bill/Tools/cinder_master/boost -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/ciFaceTracker/libs/FaceTracker/include -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/OpenCV/include -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources/i386 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources -F/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug -include /var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-fgzfrkogghlgwpcbkcaatvhodcgg/Vomit_Prefix.pch -MMD -MT dependencies -MF /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.d --serialize-diagnostics /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.dia -c /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.mm -o /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.o36"70513CD6-815F-4A44-ACEB-8A00103CAEB9-
-b9D769C41-2955-4A0D-9906-49659DB57E6A
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.mm202"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.o /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler16a5ac885d31b841^bf0b8b8d5d31b841^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.mm0000000000000000^3326"CompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.o /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-generated-files.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-own-target-headers.hmap -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-all-target-headers.hmap -iquote /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Vomit-project-headers.hmap -iquote/Users/bill/Tools/cinder_master/include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug/include -I/Users/bill/Tools/cinder_master/boost -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/ciFaceTracker/libs/FaceTracker/include -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/../blocks/OpenCV/include -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources/i386 -I/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/DerivedSources -F/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug -include /var/folders/t7/bxx4nnws6k362_06w_gsnm0m0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Vomit_Prefix-fgzfrkogghlgwpcbkcaatvhodcgg/Vomit_Prefix.pch -MMD -MT dependencies -MF /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.d --serialize-diagnostics /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.dia -c /Users/bill/Documents/ITP/AIT-CV/Vomit/src/VomitApp.mm -o /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/VomitApp.o36"FC16ECF2-675E-42A2-9DF2-D7BE988F6FAD-
+b26A01C34-75C1-4A77-88A0-D89D007F107E
 
 CCompileC ./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/ciFaceTracker.o /Users/bill/Documents/ITP/AIT-CV/Vomit/blocks/ciFaceTracker/ciFaceTracker.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s405722739.119125
@@ -10609,8 +10609,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy bu
 b56815A5B-F16E-4A13-A8E9-5760F809E6D9
 
 CLd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Debug/Vomit.app/Contents/MacOS/Vomit normal i386
-s405724385.733556
-e405724386.424470
+s405888397.549376
+e405888398.388646
 r1
 xLd
 x/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Debug/Vomit.app/Contents/MacOS/Vomit
@@ -10665,14 +10665,13 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.eprintf.a
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
@@ -10702,10 +10701,11 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
@@ -10725,8 +10725,8 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Link /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Debug/Vomit.app/Contents/MacOS/Vomit59"Ld ./build/Debug/Vomit.app/Contents/MacOS/Vomit normal i386fdddbbe1dc2eb841^54aa6ce2dc2eb841^---0#0#1#--1937"Ld ./build/Debug/Vomit.app/Contents/MacOS/Vomit normal i386    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug -F/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug -filelist /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Vomit.LinkFileList -mmacosx-version-min=10.7 -dead_strip /Users/bill/Tools/cinder_master/lib/libcinder_d.a ../blocks/OpenCV/lib/macosx/libopencv_calib3d.a ../blocks/OpenCV/lib/macosx/libopencv_contrib.a ../blocks/OpenCV/lib/macosx/libopencv_core.a ../blocks/OpenCV/lib/macosx/libopencv_features2d.a ../blocks/OpenCV/lib/macosx/libopencv_flann.a ../blocks/OpenCV/lib/macosx/libopencv_gpu.a ../blocks/OpenCV/lib/macosx/libopencv_imgproc.a ../blocks/OpenCV/lib/macosx/libopencv_legacy.a ../blocks/OpenCV/lib/macosx/libopencv_ml.a ../blocks/OpenCV/lib/macosx/libopencv_nonfree.a ../blocks/OpenCV/lib/macosx/libopencv_objdetect.a ../blocks/OpenCV/lib/macosx/libopencv_photo.a ../blocks/OpenCV/lib/macosx/libopencv_stitching.a ../blocks/OpenCV/lib/macosx/libopencv_ts.a ../blocks/OpenCV/lib/macosx/libopencv_video.a ../blocks/OpenCV/lib/macosx/libopencv_videostab.a -stdlib=libc++ -fobjc-link-runtime -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -framework QuickTime -Xlinker -dependency_info -Xlinker /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Vomit_dependency_info.dat -o /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Debug/Vomit.app/Contents/MacOS/Vomit36"04EFC9B2-B66A-43C1-9DD2-6B2DF81F2E26-
-b9D769C41-2955-4A0D-9906-49659DB57E6A
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Link /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Debug/Vomit.app/Contents/MacOS/Vomit59"Ld ./build/Debug/Vomit.app/Contents/MacOS/Vomit normal i38691b78c8d5d31b841^4a7f638e5d31b841^---0#0#1#--1937"Ld ./build/Debug/Vomit.app/Contents/MacOS/Vomit normal i386    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug -F/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/build/Debug -filelist /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Vomit.LinkFileList -mmacosx-version-min=10.7 -dead_strip /Users/bill/Tools/cinder_master/lib/libcinder_d.a ../blocks/OpenCV/lib/macosx/libopencv_calib3d.a ../blocks/OpenCV/lib/macosx/libopencv_contrib.a ../blocks/OpenCV/lib/macosx/libopencv_core.a ../blocks/OpenCV/lib/macosx/libopencv_features2d.a ../blocks/OpenCV/lib/macosx/libopencv_flann.a ../blocks/OpenCV/lib/macosx/libopencv_gpu.a ../blocks/OpenCV/lib/macosx/libopencv_imgproc.a ../blocks/OpenCV/lib/macosx/libopencv_legacy.a ../blocks/OpenCV/lib/macosx/libopencv_ml.a ../blocks/OpenCV/lib/macosx/libopencv_nonfree.a ../blocks/OpenCV/lib/macosx/libopencv_objdetect.a ../blocks/OpenCV/lib/macosx/libopencv_photo.a ../blocks/OpenCV/lib/macosx/libopencv_stitching.a ../blocks/OpenCV/lib/macosx/libopencv_ts.a ../blocks/OpenCV/lib/macosx/libopencv_video.a ../blocks/OpenCV/lib/macosx/libopencv_videostab.a -stdlib=libc++ -fobjc-link-runtime -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -framework QuickTime -Xlinker -dependency_info -Xlinker /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Vomit.build/Debug/Vomit.build/Objects-normal/i386/Vomit_dependency_info.dat -o /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Debug/Vomit.app/Contents/MacOS/Vomit36"66EE723A-7133-4314-95E7-7638CF57B9A2-
+b26A01C34-75C1-4A77-88A0-D89D007F107E
 
 CLd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Debug/Vomit.app/Contents/MacOS/Vomit normal x86_64
 r0
@@ -12277,11 +12277,11 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Precomp
 b4149101E-85A9-4036-9F68-D40D97814BF7
 
 CTouch /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Debug/Vomit.app
-s405724386.425990
-e405724386.430467
+s405888398.389652
+e405888398.402368
 r1
 xTouch
 x/Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Debug/Vomit.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Touch /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Debug/Vomit.app29"Touch ./build/Debug/Vomit.appbd196de2dc2eb841^44346ee2dc2eb841^---0#0#1#--173"Touch ./build/Debug/Vomit.app    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    /usr/bin/touch -c /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Debug/Vomit.app36"8D42F1C9-3019-4EC2-A181-75FD8EDCF8C1-
-b9D769C41-2955-4A0D-9906-49659DB57E6A
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Touch /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Debug/Vomit.app29"Touch ./build/Debug/Vomit.app4bc8638e5d31b841^7d03678e5d31b841^---0#0#1#--173"Touch ./build/Debug/Vomit.app    cd /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode    /usr/bin/touch -c /Users/bill/Documents/ITP/AIT-CV/Vomit/xcode/./build/Debug/Vomit.app36"6EFF7E06-5DED-48A7-B90B-503DBBF57AEA-
+b26A01C34-75C1-4A77-88A0-D89D007F107E
 
